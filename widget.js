@@ -49,10 +49,12 @@ function text(stack, str, size, color, weight = "regular", lines = 1) {
 function header(w, d, stale, compact) {
   const h = w.addStack();
   h.centerAlignContent();
-  text(h, "ニュースブリーフ", compact ? 11 : 12, C.accent, "bold");
-  h.addSpacer();
-  const md = (d.date || "").slice(5).replace("-", "/");
-  text(h, md + (stale ? " ・前回分" : ""), 11, C.sub);
+  text(h, "Today's Topics", compact ? 12 : 13, C.ink, "bold");
+  if (stale) {
+    // 通信できず前回のデータを表示しているときだけ出す
+    h.addSpacer();
+    text(h, "前回分", 10, C.sub);
+  }
 }
 
 function marketRow(w, markets, count) {
