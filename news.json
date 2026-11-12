@@ -1,217 +1,217 @@
 {
- "date": "2026-11-12",
- "label": "2026年11月12日（木）",
+ "date": "2026-11-13",
+ "label": "2026年11月13日（金）",
  "headline": [
-  "日経平均は789円高の6万1248円と3日続伸、AI・半導体株の買い戻しが主導",
-  "米CPI上振れで12月利上げ観測が強まり、ドル円は160円目前で介入警戒",
-  "会計論点：ASBJが排出量取引の公開草案を今月公表目標に、論文式の合格発表は11/20"
+  "エヌビディアのフアンCEOが即時辞任、暫定トップはクレスCFO　東京市場は半導体株安で日経平均429円安",
+  "ドル円は一時160円05銭と約2か月ぶりの円安水準、米10年債利回りは5.1%台に上昇し介入警戒",
+  "会計論点：トヨコーで「検収済み・未出荷」売上に監査人が疑義、朝日工業社など決算延期の開示が相次ぐ"
  ],
  "markets": [
   {
-   "chg": "+789.01 (+1.31%)",
-   "dir": 1,
+   "chg": "-429.23 (-0.70%)",
+   "dir": -1,
    "name": "日経平均",
-   "note": "11/11終値",
-   "value": "61,248.59"
+   "note": "11/12終値",
+   "value": "60,819.36"
   },
   {
-   "chg": "+1.13円 (+0.71%)",
-   "dir": 1,
+   "chg": "-0.04円 (-0.03%)",
+   "dir": 0,
    "name": "ドル円",
-   "note": "11/12 NY午前4時時点（前日NY終値158.74比）",
-   "value": "159.87"
+   "note": "11/13 3時頃",
+   "value": "159.75"
   },
   {
-   "chg": "+247ドル (+0.47%)",
-   "dir": 1,
+   "chg": "-103.17 (-0.20%)",
+   "dir": -1,
    "name": "NYダウ",
-   "note": "11/11 引け直前（日本時間5時台）の速報値",
-   "value": "約52,479"
+   "note": "11/12 速報値",
+   "value": "52,383.32"
   },
   {
-   "chg": "+0.49 (+0.57%)",
+   "chg": "+2.21 (+2.55%)",
    "dir": 1,
    "name": "WTI原油",
-   "note": "12月限 11/11終値",
-   "value": "86.53"
+   "note": "11/12終値",
+   "value": "88.74"
   }
  ],
  "picks": [
-  "20261112-asbj-ets",
-  "20261112-goodwill",
-  "20261112-nikkei"
+  "20261113-toyoko",
+  "20261113-ssbj-assurance",
+  "20261113-nikkei"
  ],
  "items": [
   {
-   "id": "20261112-nikkei",
+   "id": "20261113-nvidia-ceo",
+   "cat": "AI・テック",
+   "imp": 3,
+   "title": "エヌビディアのフアンCEOが即時辞任　創業33年、暫定CEOにクレスCFO",
+   "summary": "",
+   "url": "https://news.jkn.co.kr/editions/japanese/post/1089725",
+   "source": "財経日報"
+  },
+  {
+   "id": "20261113-nikkei",
    "cat": "経済・市場",
    "imp": 3,
-   "title": "日経平均3日続伸、789円高の6万1248円　AI・半導体株に買い戻し",
-   "summary": "11日の東京市場は、前日の米株安にもかかわらず朝から押し目買いが入り、日経平均は789円高の6万1248円で引けました。東京エレクトロンなど半導体関連の買い戻しが指数を押し上げ、TOPIXも35ポイント高の3929でした。",
-   "url": "https://finance.yahoo.co.jp/news/detail/e485913e90c1b6d338b6586763da6b17494d49f9",
-   "source": "Yahoo!ファイナンス（ウエルスアドバイザー）"
-  },
-  {
-   "id": "20261112-usdjpy",
-   "cat": "為替・金利",
-   "imp": 3,
-   "title": "ドル円、159円94銭まで上昇し160円目前　介入警戒で伸び悩み",
-   "summary": "11日のNY市場でドル円は159円台後半まで上がり、一時159円94銭を付けました。160円の大台を前に、当局による円買い介入への警戒が強まり、上値は重くなっています。",
-   "url": "https://www.zaikei.co.jp/article/20261112/877151.html",
-   "source": "財経新聞（フィスコ）"
-  },
-  {
-   "id": "20261112-fed",
-   "cat": "為替・金利",
-   "imp": 2,
-   "title": "米10月CPIが予想超え　FRBの12月利上げはほぼ確実、0.5ポイント案も",
-   "summary": "米国の10月消費者物価は前月比0.4%上昇と予想を上回りました。先物市場では12月の据え置き確率がゼロになり、0.25ポイント上げが8割強と見込まれています。",
-   "url": "https://www.zaikei.co.jp/article/20261111/876954.html",
+   "title": "日経平均4日ぶり反落、429円安の6万819円　エヌビディア不安で値がさ半導体株に売り",
+   "summary": "",
+   "url": "https://www.zaikei.co.jp/article/20261112/877289.html",
    "source": "財経新聞"
   },
   {
-   "id": "20261112-anthropic-ipo",
-   "cat": "AI・テック",
+   "id": "20261113-nymarket",
+   "cat": "経済・市場",
+   "imp": 2,
+   "title": "NY株は小幅安、ナスダック0.5%安　金は2.9%急落、原油は2.5%高",
+   "summary": "",
+   "url": "https://fx.minkabu.jp/news/384332",
+   "source": "みんかぶFX"
+  },
+  {
+   "id": "20261113-usdjpy",
+   "cat": "為替・金利",
    "imp": 3,
-   "title": "アンソロピックIPO、仮条件は70〜78ドル　来週上場予定もAI株安で延期観測",
-   "summary": "想定価格帯は1株70〜78ドル、調達額は最大で700億ドル超と史上最大級の規模です。上場は11月19〜20日を目指すと報じられていますが、延期の可能性も取り沙汰されています。",
-   "url": "https://diamond.jp/zai/articles/-/1074907",
-   "source": "ダイヤモンド・ザイ"
+   "title": "ドル円、一時160円05銭　約2か月ぶりの160円台も介入警戒で押し戻される",
+   "summary": "",
+   "url": "https://zai.diamond.jp/articles/-/498960",
+   "source": "ザイFX!"
   },
   {
-   "id": "20261112-claude-sheets",
+   "id": "20261113-ust",
+   "cat": "為替・金利",
+   "imp": 2,
+   "title": "米10年債利回りが5.1%台に上昇　30年債入札は5.44%で落札",
+   "summary": "",
+   "url": "https://fx.minkabu.jp/news/384332",
+   "source": "みんかぶFX"
+  },
+  {
+   "id": "20261113-anthropic-ipo",
    "cat": "AI・テック",
    "imp": 2,
-   "title": "アンソロピック、表計算「Claude Sheets」などを発表　マイクロソフト株は一時3%安",
-   "summary": "表計算の「Claude Sheets」などを公開し、AI企業がOfficeの領域に本格的に踏み込む動きと受け止められました。",
-   "url": "https://hashout.jp/ai/14149/",
-   "source": "HashOut"
+   "title": "アンソロピックIPO、19日上場予定は維持　エヌビディア混乱でAI株の地合いに逆風",
+   "summary": "",
+   "url": "https://forbesjapan.com/articles/detail/105326",
+   "source": "Forbes JAPAN"
   },
   {
-   "id": "20261112-coreweave",
+   "id": "20261113-alphagenome",
    "cat": "AI・テック",
-   "imp": 2,
-   "title": "米コアウィーブ、売上2.7倍も赤字拡大　利払い負担が重く、それでも株価は上昇",
-   "summary": "7〜9月期の売上高は前年の約2.7倍に伸びた一方、借入の急増で支払利息が膨らみ、純損失は大きく拡大しました。",
-   "url": "https://www.mashupreporter.com/coreweave-earnings-2026-q3/",
-   "source": "Mashup Reporter"
+   "imp": 1,
+   "title": "Google DeepMind、「AlphaGenome 2」を発表　細胞の種類ごとにDNA変異の影響を予測",
+   "summary": "",
+   "url": "https://www.itmedia.co.jp/news/article/2611/12/2000003132/",
+   "source": "ITmedia"
   },
   {
-   "id": "20261112-sbg",
-   "cat": "企業",
-   "imp": 3,
-   "title": "ソフトバンクG、中間7680億円の赤字　米データセンター向け発電設備の見直しで巨額損失",
-   "summary": "4〜9月期の純損益は7680億円の赤字に転じました。米国のAIデータセンター計画で発電設備の調達契約を見直し、約5970億円の損失を計上したのが響きました。",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261110de73545",
-   "source": "NHK"
-  },
-  {
-   "id": "20261112-oil-refiners",
+   "id": "20261113-inpex",
    "cat": "企業",
    "imp": 2,
-   "title": "石油元売り3社が中間期で過去最高益　原油高で在庫評価益が膨らむ",
-   "summary": "ENEOS、出光興産、コスモの9月中間決算は、純利益がそろって過去最高となりました。原油高で手持ち在庫の評価益も膨らみました。",
-   "url": "https://www.tokyo-np.co.jp/article/527483",
-   "source": "東京新聞"
+   "title": "INPEX、今期純利益予想を上方修正し40%増へ　法人税負担の減少が寄与",
+   "summary": "",
+   "url": "https://www.nikkei.com/article/DGXZQOUB124X00S6A111C2000000/",
+   "source": "日本経済新聞"
   },
   {
-   "id": "20261112-mitsubishi-materials",
+   "id": "20261113-earnings",
    "cat": "企業",
    "imp": 1,
-   "title": "三菱マテリアル、上期純利益1208億円で過去最高　通期予想も上方修正",
-   "summary": "銅や金の価格上昇と円安を追い風に、上期として最高益を更新し、通期の純利益予想も引き上げました。",
-   "url": "https://finance.biggo.jp/news/JP_5711.T_2026-11-11",
-   "source": "BigGo ファイナンス"
+   "title": "12日の決算：ワコール・カシオ・明治HDが増益や還元強化、テルモ・住友ゴムは下方修正",
+   "summary": "",
+   "url": "https://tomokutchi.hatenablog.com/entry/kessan-20261112",
+   "source": "ToMO Blog"
   },
   {
-   "id": "20261112-asbj-ets",
+   "id": "20261113-toyoko",
    "cat": "会計・監査",
    "imp": 3,
-   "title": "ASBJ、排出量取引の会計処理の公開草案を今月公表へ　開発計画を改訂",
-   "summary": "ASBJは開発中の会計基準の計画を改訂し、排出量取引制度に関する当面の会計処理の公開草案を11月に公表する目標を盛り込みました。",
-   "url": "https://www.asb-j.jp/jp/project/exposure_draft/y2026/2026-1023.html",
-   "source": "企業会計基準委員会"
+   "title": "トヨコー、「検収済み・未出荷」の売上計上に監査人が疑義　調査委員会を設置し決算発表を延期",
+   "summary": "",
+   "url": "https://kaikeinews.hatenablog.com/entry/2026/11/11/191223",
+   "source": "会計ニュース・コレクター"
   },
   {
-   "id": "20261112-goodwill",
+   "id": "20261113-asahikogyosha",
    "cat": "会計・監査",
    "imp": 2,
-   "title": "のれんの償却期間、ASBJが考え方を整理　「既定の年数」設定も検討",
-   "summary": "ASBJはのれんの会計処理と開示の見直しを審議し、償却期間の考え方の方向性を示しました。既定年数の是非なども今後検討します。",
-   "url": "https://digital.chuokeizai.co.jp/n/nbd44773fd49d",
-   "source": "中央経済社（経理情報）"
+   "title": "朝日工業社、マレーシア子会社で架空発注などの疑い　中間決算発表を延期",
+   "summary": "",
+   "url": "https://kaikeinews.hatenablog.com/entry/2026/11/11/155432",
+   "source": "会計ニュース・コレクター"
   },
   {
-   "id": "20261112-unlisted-stock",
+   "id": "20261113-seima",
    "cat": "会計・監査",
    "imp": 2,
-   "title": "非上場株式の相続税評価見直し、会計士協会が意見表明　「残余利益法」導入案に",
-   "summary": "国税庁の有識者会議で議論されている非上場株式の評価見直しについて、日本公認会計士協会が意見を公表しました。",
-   "url": "https://jicpa.or.jp/",
-   "source": "日本公認会計士協会"
+   "title": "SEIMA HD、12億円の子会社化に監査法人が疑義　半期報告書は期限内提出できず",
+   "summary": "",
+   "url": "https://kaikeinews.hatenablog.com/entry/2026/11/11/021340",
+   "source": "会計ニュース・コレクター"
   },
   {
-   "id": "20261112-cpa-exam",
+   "id": "20261113-ssbj-assurance",
    "cat": "会計・監査",
    "imp": 2,
-   "title": "公認会計士試験・論文式の合格発表は11月20日予定　来週金曜",
-   "summary": "令和8年公認会計士試験の論文式の合格発表は11月20日（金）に予定されています。答案を提出した全員に成績通知書が届きます。",
-   "url": "https://www.tac-school.co.jp/kouza_kaikei/kaikei_contents_goukaku.html",
-   "source": "TAC 公認会計士講座"
+   "title": "サステナ情報の保証基準、意見書案の方向性に異論なし　2027年3月末までに策定へ",
+   "summary": "",
+   "url": "https://digital.chuokeizai.co.jp/n/n34d965e9b293",
+   "source": "中央経済社Digital"
   },
   {
-   "id": "20261112-consumption-tax",
-   "cat": "政治",
-   "imp": 3,
-   "title": "食料品の消費減税法案、参院で審議入り　少数与党に野党が攻勢",
-   "summary": "食料品にかかる消費税を2年間1%に下げる法案が11日、参議院で審議入りしました。",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261111de73947",
-   "source": "NHK"
-  },
-  {
-   "id": "20261112-iran",
-   "cat": "国際",
-   "imp": 2,
-   "title": "イラン、濃縮ウランの国外搬出を拒否　戦争終結協議は難航、原油は反発",
-   "summary": "イランは米国との合意でも濃縮ウランを国外に移さない考えを示し、協議の溝は埋まっていません。原油相場は11日に反発しました。",
-   "url": "https://www.zaikei.co.jp/article/20261110/876865.html",
-   "source": "財経新聞"
-  },
-  {
-   "id": "20261112-ukraine",
-   "cat": "国際",
-   "imp": 2,
-   "title": "米ロ・ウクライナの高官協議が約9か月ぶりに開催　ゼレンスキー氏「建設的」",
-   "summary": "米国を交えた3か国の高官協議が10日から2日間開かれました。",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261111de73861",
-   "source": "NHK"
-  },
-  {
-   "id": "20261112-npb-fa",
-   "cat": "スポーツ",
-   "imp": 1,
-   "title": "プロ野球FA交渉が解禁　ロッテが広島・坂倉に即日アタック",
-   "summary": "FA宣言選手との交渉が11日に解禁され、各球団の補強の動きが本格化します。",
-   "url": "https://news.mynavi.jp/article/20261111-5305702/",
-   "source": "マイナビニュース"
-  },
-  {
-   "id": "20261112-samurai-blue",
-   "cat": "スポーツ",
-   "imp": 1,
-   "title": "サッカー日本代表、14日にシンガポールでブラジルと対戦",
-   "summary": "日本代表は14日にブラジル代表と、その後パラグアイ代表と親善試合を行います。",
-   "url": "https://www.soccer-king.jp/news/japan/national/fixed/2213855.html",
-   "source": "サッカーキング"
-  },
-  {
-   "id": "20261112-cyber",
+   "id": "20261113-boki-leak",
    "cat": "社会",
    "imp": 2,
-   "title": "サイバー攻撃による個人情報流出が止まらず　AIで自動化された攻撃も",
-   "summary": "サイバー攻撃で個人情報が大量に漏れる被害が続いています。",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261111de74020",
+   "title": "日商のネット試験システムに不正アクセス　簿記など最大98万人分の情報流出の恐れ",
+   "summary": "",
+   "url": "https://www.jcci.or.jp/news/news/2026/1110170000.html",
+   "source": "日本商工会議所"
+  },
+  {
+   "id": "20261113-iran",
+   "cat": "国際",
+   "imp": 2,
+   "title": "トランプ氏「イランとの合意は不要」　ホルムズ海峡でタンカー2隻炎上と革命防衛隊",
+   "summary": "",
+   "url": "https://www.zaikei.co.jp/article/20261113/877333.html",
+   "source": "財経新聞"
+  },
+  {
+   "id": "20261113-taiwan",
+   "cat": "国際",
+   "imp": 2,
+   "title": "習近平主席「台湾統一は必ず実現」　孫文生誕160年式典で改めて強調",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261112de75056",
    "source": "NHK"
+  },
+  {
+   "id": "20261113-consumption-tax",
+   "cat": "政治",
+   "imp": 2,
+   "title": "食料品の消費減税法案、きょう参院特別委で実質審議入り　高市首相が出席",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261112de74564",
+   "source": "NHK"
+  },
+  {
+   "id": "20261113-sumo",
+   "cat": "スポーツ",
+   "imp": 1,
+   "title": "九州場所5日目：豊昇龍が藤青雲に敗れ3連敗、熱海富士がただ一人5連勝",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261112de74742",
+   "source": "NHK"
+  },
+  {
+   "id": "20261113-npb-fa",
+   "cat": "スポーツ",
+   "imp": 1,
+   "title": "プロ野球FA、宣言は10人で交渉本格化　人的補償は今オフで最後に",
+   "summary": "",
+   "url": "https://baseball-life-navi.com/npb-fa-2026-list/",
+   "source": "プロ野球観戦ナビ"
   }
  ],
  "page": "https://claude.ai/artifact/JexwF1HzfYaMYAbrjYzt3W"
