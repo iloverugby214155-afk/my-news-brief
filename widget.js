@@ -88,12 +88,26 @@ function itemRow(w, item, showSummary) {
   if (showSummary) text(s, item.summary, 11, C.sub, "regular", 2);
 }
 
+// 次に読み直す時刻を決める（実際のタイミングはiOSが調整する）
+// ・データが今日の分でなければ15分後にもう一度
+// ・今日の分なら1時間後。ただし翌朝6:20を過ぎないようにする
+function nextRefresh(d) {
+  const now = new Date();
+  const z = (n) => String(n).padStart(2, "0");
+  const today = now.getFullYear() + "-" + z(now.getMonth() + 1) + "-" + z(now.getDate());
+  if (!d || d.date !== today) return new Date(now.getTime() + 15 * 60 * 1000);
+  const morning = new Date(now); morning.setHours(6, 20, 0, 0);
+  if (morning <= now) morning.setDate(morning.getDate() + 1);
+  const inHour = new Date(now.getTime() + 60 * 60 * 1000);
+  return inHour < morning ? inHour : morning;
+}
+
 async function build() {
   const { data: d, stale } = await loadData();
   const w = new ListWidget();
   w.backgroundColor = C.bg;
   w.url = PAGE_URL;
-  w.refreshAfterDate = new Date(Date.now() + 60 * 60 * 1000); // 1時間ごとに見直す
+  w.refreshAfterDate = nextRefresh(d);
 
   const family = config.widgetFamily || "large";
 
