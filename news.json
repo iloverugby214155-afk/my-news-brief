@@ -1,217 +1,208 @@
 {
- "date": "2026-11-13",
- "label": "2026年11月13日（金）",
+ "date": "2026-11-14",
+ "label": "2026年11月14日（土）",
  "headline": [
-  "エヌビディアのフアンCEOが即時辞任、暫定トップはクレスCFO　東京市場は半導体株安で日経平均429円安",
-  "ドル円は一時160円05銭と約2か月ぶりの円安水準、米10年債利回りは5.1%台に上昇し介入警戒",
-  "会計論点：トヨコーで「検収済み・未出荷」売上に監査人が疑義、朝日工業社など決算延期の開示が相次ぐ"
+  "日経平均は322円高の6万1142円と反発、3メガバンクは中間期で過去最高益・通期予想をそろって上方修正",
+  "ドル円は160円台で攻防、片山財務相が「日米連携」でけん制　米PPIは予想下回るもナスダックは1%安",
+  "会計論点：ニデックが監査手続き長期化で年内の臨時総会を断念、監査基準改訂案（継続企業・不正）の意見募集は16日締切"
  ],
  "markets": [
   {
-   "chg": "-429.23 (-0.70%)",
-   "dir": -1,
-   "name": "日経平均",
-   "note": "11/12終値",
-   "value": "60,819.36"
-  },
-  {
-   "chg": "-0.04円 (-0.03%)",
-   "dir": 0,
-   "name": "ドル円",
-   "note": "11/13 3時頃",
-   "value": "159.75"
-  },
-  {
-   "chg": "-103.17 (-0.20%)",
-   "dir": -1,
-   "name": "NYダウ",
-   "note": "11/12 速報値",
-   "value": "52,383.32"
-  },
-  {
-   "chg": "+2.21 (+2.55%)",
+   "chg": "+322.99 (+0.53%)",
    "dir": 1,
+   "name": "日経平均",
+   "note": "11/13終値",
+   "value": "61,142.35"
+  },
+  {
+   "chg": "-0.48円",
+   "dir": -1,
+   "name": "ドル円",
+   "note": "11/13 NY終値",
+   "value": "159.52"
+  },
+  {
+   "chg": "-32.65 (-0.06%)",
+   "dir": 0,
+   "name": "NYダウ",
+   "note": "11/13 速報値",
+   "value": "52,264.44"
+  },
+  {
+   "chg": "-0.18 (-0.20%)",
+   "dir": -1,
    "name": "WTI原油",
-   "note": "11/12終値",
-   "value": "88.74"
+   "note": "11/13終値",
+   "value": "88.56"
   }
  ],
  "picks": [
-  "20261113-toyoko",
-  "20261113-ssbj-assurance",
-  "20261113-nikkei"
+  "20261114-audit-standard",
+  "20261114-nidec",
+  "20261114-nvidia"
  ],
  "items": [
   {
-   "id": "20261113-nvidia-ceo",
-   "cat": "AI・テック",
-   "imp": 3,
-   "title": "エヌビディアのフアンCEOが即時辞任　創業33年、暫定CEOにクレスCFO",
-   "summary": "",
-   "url": "https://news.jkn.co.kr/editions/japanese/post/1089725",
-   "source": "財経日報"
-  },
-  {
-   "id": "20261113-nikkei",
+   "id": "20261114-nikkei",
    "cat": "経済・市場",
-   "imp": 3,
-   "title": "日経平均4日ぶり反落、429円安の6万819円　エヌビディア不安で値がさ半導体株に売り",
+   "imp": 2,
+   "title": "日経平均反発、322円高の6万1142円　一時1000円超高もエヌビディア不安で伸び悩み",
    "summary": "",
-   "url": "https://www.zaikei.co.jp/article/20261112/877289.html",
+   "url": "https://www.zaikei.co.jp/article/20261113/877508.html",
    "source": "財経新聞"
   },
   {
-   "id": "20261113-nymarket",
+   "id": "20261114-nymarket",
    "cat": "経済・市場",
    "imp": 2,
-   "title": "NY株は小幅安、ナスダック0.5%安　金は2.9%急落、原油は2.5%高",
+   "title": "NY株、ダウは横ばい圏もナスダックは1%安　ハイテク株の混乱続く",
    "summary": "",
-   "url": "https://fx.minkabu.jp/news/384332",
+   "url": "https://fx.minkabu.jp/news/384446",
    "source": "みんかぶFX"
   },
   {
-   "id": "20261113-usdjpy",
+   "id": "20261114-usdjpy",
    "cat": "為替・金利",
    "imp": 3,
-   "title": "ドル円、一時160円05銭　約2か月ぶりの160円台も介入警戒で押し戻される",
+   "title": "ドル円、160円で攻防　片山財務相「米国と緊密に連携」と円安けん制",
    "summary": "",
-   "url": "https://zai.diamond.jp/articles/-/498960",
-   "source": "ザイFX!"
+   "url": "https://news.ksb.co.jp/ann/article/17047380",
+   "source": "KSB瀬戸内海放送（ANN）"
   },
   {
-   "id": "20261113-ust",
+   "id": "20261114-jgb",
    "cat": "為替・金利",
    "imp": 2,
-   "title": "米10年債利回りが5.1%台に上昇　30年債入札は5.44%で落札",
+   "title": "長期金利が2.855%に上昇　米利上げ観測が国内債にも波及",
    "summary": "",
-   "url": "https://fx.minkabu.jp/news/384332",
-   "source": "みんかぶFX"
+   "url": "https://www.oanda.jp/lab-education/market_news/kn_2026111301001138/",
+   "source": "OANDA（共同通信）"
   },
   {
-   "id": "20261113-anthropic-ipo",
-   "cat": "AI・テック",
-   "imp": 2,
-   "title": "アンソロピックIPO、19日上場予定は維持　エヌビディア混乱でAI株の地合いに逆風",
-   "summary": "",
-   "url": "https://forbesjapan.com/articles/detail/105326",
-   "source": "Forbes JAPAN"
-  },
-  {
-   "id": "20261113-alphagenome",
-   "cat": "AI・テック",
-   "imp": 1,
-   "title": "Google DeepMind、「AlphaGenome 2」を発表　細胞の種類ごとにDNA変異の影響を予測",
-   "summary": "",
-   "url": "https://www.itmedia.co.jp/news/article/2611/12/2000003132/",
-   "source": "ITmedia"
-  },
-  {
-   "id": "20261113-inpex",
+   "id": "20261114-megabanks",
    "cat": "企業",
-   "imp": 2,
-   "title": "INPEX、今期純利益予想を上方修正し40%増へ　法人税負担の減少が寄与",
+   "imp": 3,
+   "title": "3メガバンク、中間期で過去最高益　純利益合計3.5兆円、通期予想をそろって上方修正",
    "summary": "",
-   "url": "https://www.nikkei.com/article/DGXZQOUB124X00S6A111C2000000/",
+   "url": "https://finance.biggo.jp/news/b3f99258-bb57-4a61-a1cf-d2c65311bb28",
+   "source": "BigGo ファイナンス"
+  },
+  {
+   "id": "20261114-nidec",
+   "cat": "会計・監査",
+   "imp": 3,
+   "title": "ニデック、年内の臨時株主総会を断念　監査意見を得る作業が長期化",
+   "summary": "",
+   "url": "https://www.nikkei.com/article/DGXZQOUF134RU0T11C26A1000000/",
    "source": "日本経済新聞"
   },
   {
-   "id": "20261113-earnings",
-   "cat": "企業",
-   "imp": 1,
-   "title": "12日の決算：ワコール・カシオ・明治HDが増益や還元強化、テルモ・住友ゴムは下方修正",
-   "summary": "",
-   "url": "https://tomokutchi.hatenablog.com/entry/kessan-20261112",
-   "source": "ToMO Blog"
-  },
-  {
-   "id": "20261113-toyoko",
+   "id": "20261114-audit-standard",
    "cat": "会計・監査",
    "imp": 3,
-   "title": "トヨコー、「検収済み・未出荷」の売上計上に監査人が疑義　調査委員会を設置し決算発表を延期",
+   "title": "監査基準の改訂案、意見募集は16日締切　継続企業の前提と不正対応を見直し",
    "summary": "",
-   "url": "https://kaikeinews.hatenablog.com/entry/2026/11/11/191223",
-   "source": "会計ニュース・コレクター"
+   "url": "https://www.fsa.go.jp/news/r8/sonota/20261016-2/20261016.html",
+   "source": "金融庁"
   },
   {
-   "id": "20261113-asahikogyosha",
+   "id": "20261114-gaa-connectivity",
    "cat": "会計・監査",
-   "imp": 2,
-   "title": "朝日工業社、マレーシア子会社で架空発注などの疑い　中間決算発表を延期",
+   "imp": 1,
+   "title": "会計士団体の国際連合GAA、財務とサステナ情報の「結合性」報告書の第2弾を公表",
    "summary": "",
-   "url": "https://kaikeinews.hatenablog.com/entry/2026/11/11/155432",
-   "source": "会計ニュース・コレクター"
+   "url": "https://jicpa.or.jp/news/information/2026/20261112igt.html",
+   "source": "日本公認会計士協会"
   },
   {
-   "id": "20261113-seima",
-   "cat": "会計・監査",
-   "imp": 2,
-   "title": "SEIMA HD、12億円の子会社化に監査法人が疑義　半期報告書は期限内提出できず",
+   "id": "20261114-nvidia",
+   "cat": "AI・テック",
+   "imp": 3,
+   "title": "エヌビディア、フアン氏の事実上の解任で幕引き急ぐ　中国は「技術封鎖の口実」と反発",
    "summary": "",
-   "url": "https://kaikeinews.hatenablog.com/entry/2026/11/11/021340",
-   "source": "会計ニュース・コレクター"
+   "url": "https://www.afpbb.com/articles/-/3662152",
+   "source": "AFPBB News"
   },
   {
-   "id": "20261113-ssbj-assurance",
-   "cat": "会計・監査",
+   "id": "20261114-anthropic-ipo",
+   "cat": "AI・テック",
    "imp": 2,
-   "title": "サステナ情報の保証基準、意見書案の方向性に異論なし　2027年3月末までに策定へ",
+   "title": "アンソロピック、19日にナスダック上場予定　日本のネット証券もNISAで申込受付",
    "summary": "",
-   "url": "https://digital.chuokeizai.co.jp/n/n34d965e9b293",
-   "source": "中央経済社Digital"
+   "url": "https://news.mynavi.jp/article/20261112-5307411/",
+   "source": "マイナビニュース"
   },
   {
-   "id": "20261113-boki-leak",
-   "cat": "社会",
-   "imp": 2,
-   "title": "日商のネット試験システムに不正アクセス　簿記など最大98万人分の情報流出の恐れ",
+   "id": "20261114-gemini",
+   "cat": "AI・テック",
+   "imp": 1,
+   "title": "Google、新主力モデル「Gemini 4 Hydrogen」を投入　AIグラスの予約も開始",
    "summary": "",
-   "url": "https://www.jcci.or.jp/news/news/2026/1110170000.html",
-   "source": "日本商工会議所"
+   "url": "https://qiita.com/lhjjjk4/items/1a9db069df44d84a7428",
+   "source": "Qiita"
   },
   {
-   "id": "20261113-iran",
+   "id": "20261114-iran",
    "cat": "国際",
-   "imp": 2,
-   "title": "トランプ氏「イランとの合意は不要」　ホルムズ海峡でタンカー2隻炎上と革命防衛隊",
+   "imp": 3,
+   "title": "イラン革命防衛隊「バーレーンの米軍レーダーを破壊」　米中央軍は否定",
    "summary": "",
-   "url": "https://www.zaikei.co.jp/article/20261113/877333.html",
+   "url": "https://www.zaikei.co.jp/article/20261114/877553.html",
    "source": "財経新聞"
   },
   {
-   "id": "20261113-taiwan",
-   "cat": "国際",
-   "imp": 2,
-   "title": "習近平主席「台湾統一は必ず実現」　孫文生誕160年式典で改めて強調",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261112de75056",
-   "source": "NHK"
-  },
-  {
-   "id": "20261113-consumption-tax",
+   "id": "20261114-consumption-tax",
    "cat": "政治",
+   "imp": 3,
+   "title": "消費減税法案が参院で実質審議入り　高市首相、支援金は勤労者の5割が対象と表明",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261113de75105",
+   "source": "NHK"
+  },
+  {
+   "id": "20261114-nankai",
+   "cat": "社会",
    "imp": 2,
-   "title": "食料品の消費減税法案、きょう参院特別委で実質審議入り　高市首相が出席",
+   "title": "南海トラフ地震の被災想定10県知事、発足した防災庁に政策提言",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261112de74564",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261113de75461",
    "source": "NHK"
   },
   {
-   "id": "20261113-sumo",
-   "cat": "スポーツ",
+   "id": "20261114-ebina",
+   "cat": "社会",
    "imp": 1,
-   "title": "九州場所5日目：豊昇龍が藤青雲に敗れ3連敗、熱海富士がただ一人5連勝",
+   "title": "神奈川・海老名でトラックが2人をはね死亡　ひき逃げか、相模原で車両見つかる",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261112de74742",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261113de75480",
    "source": "NHK"
   },
   {
-   "id": "20261113-npb-fa",
+   "id": "20261114-apbc",
+   "cat": "スポーツ",
+   "imp": 2,
+   "title": "侍ジャパン、韓国に9-5で再逆転勝ち　宗山が2打席連続弾の5打点",
+   "summary": "",
+   "url": "https://www.chunichi.co.jp/article/1339112",
+   "source": "中日スポーツ"
+  },
+  {
+   "id": "20261114-samurai-blue",
+   "cat": "スポーツ",
+   "imp": 2,
+   "title": "サッカー日本代表、12月の強化試合が中止に　森保監督は17日パラグアイ戦が最後の指揮へ",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261113de75614",
+   "source": "NHK"
+  },
+  {
+   "id": "20261114-sumo",
    "cat": "スポーツ",
    "imp": 1,
-   "title": "プロ野球FA、宣言は10人で交渉本格化　人的補償は今オフで最後に",
+   "title": "九州場所6日目：大の里が1敗守り首位に並ぶ、豊昇龍は高安を破り連敗止める",
    "summary": "",
-   "url": "https://baseball-life-navi.com/npb-fa-2026-list/",
-   "source": "プロ野球観戦ナビ"
+   "url": "https://news.web.nhk/newsweb/na/nd-20261113de75381",
+   "source": "NHK"
   }
  ],
  "page": "https://claude.ai/artifact/JexwF1HzfYaMYAbrjYzt3W"
