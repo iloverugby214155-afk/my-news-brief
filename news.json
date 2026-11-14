@@ -1,208 +1,190 @@
 {
- "date": "2026-11-14",
- "label": "2026年11月14日（土）",
+ "date": "2026-11-15",
+ "label": "2026年11月15日（日）",
  "headline": [
-  "日経平均は322円高の6万1142円と反発、3メガバンクは中間期で過去最高益・通期予想をそろって上方修正",
-  "ドル円は160円台で攻防、片山財務相が「日米連携」でけん制　米PPIは予想下回るもナスダックは1%安",
-  "会計論点：ニデックが監査手続き長期化で年内の臨時総会を断念、監査基準改訂案（継続企業・不正）の意見募集は16日締切"
+  "日経平均は週間で3707円（6.46%）高の6万1142円と大幅反発、来週は17日のエヌビディア決算と6万2000円の攻防が焦点",
+  "ドル円は160円台を定着できず159円台後半で越週、米12月利上げ観測と介入警戒の綱引き　FANG+は13日に1.0%安",
+  "会計論点：ニデックが半期報告書の提出期限延長を検討、京王電鉄はランサム被害で期限を12月16日に延長　監査基準改訂案の意見募集は16日締切"
  ],
  "markets": [
   {
-   "name": "日経平均",
-   "value": "61,142.35",
    "chg": "+322.99 (+0.53%)",
    "dir": 1,
-   "note": "11/13終値"
+   "name": "日経平均",
+   "note": "11/13終値",
+   "value": "61,142.35"
   },
   {
+   "chg": "-30.73 (-0.40%)",
+   "dir": -1,
    "name": "S&P500",
-   "value": "7,561.98",
-   "chg": "-30.42 (-0.40%)",
-   "dir": -1,
-   "note": "11/13終値"
+   "note": "11/13終値",
+   "value": "7,561.67"
   },
   {
+   "chg": "-175.05 (-1.00%)",
+   "dir": -1,
    "name": "FANG+",
-   "value": "17,585.25",
-   "chg": "+310.80 (+1.80%)",
-   "dir": 1,
-   "note": "11/11終値（最新取得分）"
+   "note": "11/13終値",
+   "value": "17,396.77"
   },
   {
+   "chg": "変化幅は取得できず",
+   "dir": 0,
    "name": "ドル円",
-   "value": "159.52",
-   "chg": "-0.48円",
-   "dir": -1,
-   "note": "11/13 NY終値"
+   "note": "11/13 NY市場",
+   "value": "159円台後半"
   }
  ],
  "picks": [
-  "20261114-audit-standard",
-  "20261114-nidec",
-  "20261114-nvidia"
+  "20261115-audit-standard",
+  "20261115-nidec",
+  "20261115-nikkei-week"
  ],
  "items": [
   {
-   "id": "20261114-nikkei",
+   "id": "20261115-nikkei-week",
+   "cat": "経済・市場",
+   "imp": 3,
+   "title": "日経平均、週間3707円高で6万円台を回復　来週は6万2000円近辺の攻防に",
+   "summary": "",
+   "url": "https://diamond.jp/zai/articles/-/1075498",
+   "source": "ダイヤモンド・ザイ"
+  },
+  {
+   "id": "20261115-us-stocks",
    "cat": "経済・市場",
    "imp": 2,
-   "title": "日経平均反発、322円高の6万1142円　一時1000円超高もエヌビディア不安で伸び悩み",
+   "title": "米国株、13日はS&P500・ナスダックが続落も週間では5週ぶり上昇",
    "summary": "",
-   "url": "https://www.zaikei.co.jp/article/20261113/877508.html",
+   "url": "https://www.zaikei.co.jp/article/20261114/877579.html",
    "source": "財経新聞"
   },
   {
-   "id": "20261114-nymarket",
-   "cat": "経済・市場",
+   "id": "20261115-usdjpy-week",
+   "cat": "為替・金利",
    "imp": 2,
-   "title": "NY株、ダウは横ばい圏もナスダックは1%安　ハイテク株の混乱続く",
+   "title": "ドル円、週間で157円台から160円台へ　ただし介入警戒で定着できず",
    "summary": "",
-   "url": "https://fx.minkabu.jp/news/384446",
+   "url": "https://fx.minkabu.jp/news/384469",
    "source": "みんかぶFX"
   },
   {
-   "id": "20261114-usdjpy",
-   "cat": "為替・金利",
+   "id": "20261115-nvidia-ceo",
+   "cat": "企業",
    "imp": 3,
-   "title": "ドル円、160円で攻防　片山財務相「米国と緊密に連携」と円安けん制",
+   "title": "エヌビディア、フアン氏後任のCEO選びが本格化　アームのハース氏やAMDのスー氏の名前も",
    "summary": "",
-   "url": "https://news.ksb.co.jp/ann/article/17047380",
-   "source": "KSB瀬戸内海放送（ANN）"
-  },
-  {
-   "id": "20261114-jgb",
-   "cat": "為替・金利",
-   "imp": 2,
-   "title": "長期金利が2.855%に上昇　米利上げ観測が国内債にも波及",
-   "summary": "",
-   "url": "https://www.oanda.jp/lab-education/market_news/kn_2026111301001138/",
+   "url": "https://www.oanda.jp/lab-education/market_news/kn_2026111401000803/",
    "source": "OANDA（共同通信）"
   },
   {
-   "id": "20261114-megabanks",
-   "cat": "企業",
-   "imp": 3,
-   "title": "3メガバンク、中間期で過去最高益　純利益合計3.5兆円、通期予想をそろって上方修正",
-   "summary": "",
-   "url": "https://finance.biggo.jp/news/b3f99258-bb57-4a61-a1cf-d2c65311bb28",
-   "source": "BigGo ファイナンス"
-  },
-  {
-   "id": "20261114-nidec",
+   "id": "20261115-nidec",
    "cat": "会計・監査",
    "imp": 3,
-   "title": "ニデック、年内の臨時株主総会を断念　監査意見を得る作業が長期化",
+   "title": "ニデック、半期報告書の提出期限延長の申請を検討　延長後の期限は12月16日に",
    "summary": "",
-   "url": "https://www.nikkei.com/article/DGXZQOUF134RU0T11C26A1000000/",
+   "url": "https://www.nikkei.com/article/DGXZQOUF141VK0U6A111C2000000/",
    "source": "日本経済新聞"
   },
   {
-   "id": "20261114-audit-standard",
+   "id": "20261115-keio",
    "cat": "会計・監査",
-   "imp": 3,
-   "title": "監査基準の改訂案、意見募集は16日締切　継続企業の前提と不正対応を見直し",
+   "imp": 2,
+   "title": "京王電鉄、ランサムウェア被害で半期報告書の期限を12月16日に延長",
+   "summary": "",
+   "url": "https://www.jpx.co.jp/listing/others/extended/index.html",
+   "source": "日本取引所グループ"
+  },
+  {
+   "id": "20261115-audit-standard",
+   "cat": "会計・監査",
+   "imp": 2,
+   "title": "【締切は明日】監査基準の改訂案への意見募集、16日まで",
    "summary": "",
    "url": "https://www.fsa.go.jp/news/r8/sonota/20261016-2/20261016.html",
    "source": "金融庁"
   },
   {
-   "id": "20261114-gaa-connectivity",
-   "cat": "会計・監査",
-   "imp": 1,
-   "title": "会計士団体の国際連合GAA、財務とサステナ情報の「結合性」報告書の第2弾を公表",
-   "summary": "",
-   "url": "https://jicpa.or.jp/news/information/2026/20261112igt.html",
-   "source": "日本公認会計士協会"
-  },
-  {
-   "id": "20261114-nvidia",
+   "id": "20261115-anthropic-ipo",
    "cat": "AI・テック",
    "imp": 3,
-   "title": "エヌビディア、フアン氏の事実上の解任で幕引き急ぐ　中国は「技術封鎖の口実」と反発",
+   "title": "アンソロピック、19日にナスダック上場予定　仮条件は70〜78ドル、楽天証券の申込は19日未明まで",
    "summary": "",
-   "url": "https://www.afpbb.com/articles/-/3662152",
-   "source": "AFPBB News"
+   "url": "https://media.paypay-sec.co.jp/cat5/ipo_anthropic",
+   "source": "PayPay証券"
   },
   {
-   "id": "20261114-anthropic-ipo",
+   "id": "20261115-chatgpt-wallet",
    "cat": "AI・テック",
    "imp": 2,
-   "title": "アンソロピック、19日にナスダック上場予定　日本のネット証券もNISAで申込受付",
+   "title": "OpenAI、AIが代わりに買い物する「ChatGPT Wallet」を米国で開始",
    "summary": "",
-   "url": "https://news.mynavi.jp/article/20261112-5307411/",
-   "source": "マイナビニュース"
+   "url": "https://tech-noisy.com/2026/11/14/ai-daily-news-2026-11-13/",
+   "source": "TECH NOISY"
   },
   {
-   "id": "20261114-gemini",
+   "id": "20261115-claude-mfg",
    "cat": "AI・テック",
    "imp": 1,
-   "title": "Google、新主力モデル「Gemini 4 Hydrogen」を投入　AIグラスの予約も開始",
+   "title": "アンソロピック、製造業向け「Claude for Manufacturing」を提供",
    "summary": "",
-   "url": "https://qiita.com/lhjjjk4/items/1a9db069df44d84a7428",
-   "source": "Qiita"
+   "url": "https://tech-noisy.com/2026/11/14/ai-daily-news-2026-11-13/",
+   "source": "TECH NOISY"
   },
   {
-   "id": "20261114-iran",
+   "id": "20261115-summit",
    "cat": "国際",
    "imp": 3,
-   "title": "イラン革命防衛隊「バーレーンの米軍レーダーを破壊」　米中央軍は否定",
+   "title": "史上初の米中ロ首脳会談、19日に中国で開催へ　イラン情勢は議題、ウクライナは扱わず",
    "summary": "",
-   "url": "https://www.zaikei.co.jp/article/20261114/877553.html",
-   "source": "財経新聞"
+   "url": "https://www.jiji.com/jc/article?k=2026111400226&g=int&m=rss",
+   "source": "時事ドットコム"
   },
   {
-   "id": "20261114-consumption-tax",
+   "id": "20261115-consumption-tax",
    "cat": "政治",
-   "imp": 3,
-   "title": "消費減税法案が参院で実質審議入り　高市首相、支援金は勤労者の5割が対象と表明",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261113de75105",
-   "source": "NHK"
-  },
-  {
-   "id": "20261114-nankai",
-   "cat": "社会",
    "imp": 2,
-   "title": "南海トラフ地震の被災想定10県知事、発足した防災庁に政策提言",
+   "title": "消費減税法案、参院採決へ与党が多数派工作　国民民主・公明との連携を探る",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261113de75461",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261114de76006",
    "source": "NHK"
   },
   {
-   "id": "20261114-ebina",
-   "cat": "社会",
-   "imp": 1,
-   "title": "神奈川・海老名でトラックが2人をはね死亡　ひき逃げか、相模原で車両見つかる",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261113de75480",
-   "source": "NHK"
-  },
-  {
-   "id": "20261114-apbc",
+   "id": "20261115-samurai",
    "cat": "スポーツ",
    "imp": 2,
-   "title": "侍ジャパン、韓国に9-5で再逆転勝ち　宗山が2打席連続弾の5打点",
+   "title": "侍ジャパン、豪州に16-1で7回コールド勝ち　3連勝で決勝へ、決勝は今夜19時",
    "summary": "",
-   "url": "https://www.chunichi.co.jp/article/1339112",
-   "source": "中日スポーツ"
+   "url": "https://www.japan-baseball.jp/jp/news/press/20261114_2.html",
+   "source": "侍ジャパン公式"
   },
   {
-   "id": "20261114-samurai-blue",
-   "cat": "スポーツ",
-   "imp": 2,
-   "title": "サッカー日本代表、12月の強化試合が中止に　森保監督は17日パラグアイ戦が最後の指揮へ",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261113de75614",
-   "source": "NHK"
-  },
-  {
-   "id": "20261114-sumo",
+   "id": "20261115-sumo",
    "cat": "スポーツ",
    "imp": 1,
-   "title": "九州場所6日目：大の里が1敗守り首位に並ぶ、豊昇龍は高安を破り連敗止める",
+   "title": "九州場所7日目：大の里が6連勝で1敗守る　新入幕の嵐富士も6勝、首位に7人",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261113de75381",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261114de75973",
    "source": "NHK"
+  },
+  {
+   "id": "20261115-ebina",
+   "cat": "社会",
+   "imp": 1,
+   "title": "海老名の2人死亡ひき逃げ、49歳のトラック運転手を逮捕　容疑は否認",
+   "summary": "",
+   "url": "https://news.ksb.co.jp/ann/article/17050908",
+   "source": "KSB（ANN）"
+  },
+  {
+   "id": "20261115-takasaki-fire",
+   "cat": "社会",
+   "imp": 1,
+   "title": "高崎市の繁華街で住宅火災、1人死亡　住人の87歳男性と連絡取れず",
+   "summary": "",
+   "url": "https://news.ksb.co.jp/ann/article/17050931",
+   "source": "KSB（ANN）"
   }
  ],
  "page": "https://claude.ai/artifact/JexwF1HzfYaMYAbrjYzt3W"
