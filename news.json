@@ -1,10 +1,10 @@
 {
- "date": "2026-11-15",
- "label": "2026年11月15日（日）",
+ "date": "2026-11-16",
+ "label": "2026年11月16日（月）",
  "headline": [
-  "日経平均は週間で3707円（6.46%）高の6万1142円と大幅反発、来週は17日のエヌビディア決算と6万2000円の攻防が焦点",
-  "ドル円は160円台を定着できず159円台後半で越週、米12月利上げ観測と介入警戒の綱引き　FANG+は13日に1.0%安",
-  "会計論点：ニデックが半期報告書の提出期限延長を検討、京王電鉄はランサム被害で期限を12月16日に延長　監査基準改訂案の意見募集は16日締切"
+  "今週はAI相場の分水嶺：17日エヌビディア決算、19日アンソロピック上場　日経平均は6万1142円から週明けへ",
+  "けさ8:50に7〜9月期GDP（予想は年率+0.2%）、ドル円は159円台後半で160円の介入警戒が続く",
+  "会計論点：監査基準改訂案の意見募集はきょう締切、ASBJの「継続企業に関する会計基準」案は12/25まで　論文式の合格発表は20日"
  ],
  "markets": [
   {
@@ -29,162 +29,171 @@
    "value": "17,396.77"
   },
   {
-   "chg": "変化幅は取得できず",
-   "dir": 0,
+   "chg": "-0.13円",
+   "dir": -1,
    "name": "ドル円",
-   "note": "11/13 NY市場",
-   "value": "159円台後半"
+   "note": "11/13 NY終値",
+   "value": "159.71"
   }
  ],
  "picks": [
-  "20261115-audit-standard",
-  "20261115-nidec",
-  "20261115-nikkei-week"
+  "20261116-audit-deadline",
+  "20261116-asbj-gc",
+  "20261116-week-ahead"
  ],
  "items": [
   {
-   "id": "20261115-nikkei-week",
+   "id": "20261116-week-ahead",
    "cat": "経済・市場",
    "imp": 3,
-   "title": "日経平均、週間3707円高で6万円台を回復　来週は6万2000円近辺の攻防に",
+   "title": "今週の株式市場、17日のエヌビディア決算と19日のアンソロピック上場が焦点",
    "summary": "",
-   "url": "https://diamond.jp/zai/articles/-/1075498",
-   "source": "ダイヤモンド・ザイ"
-  },
-  {
-   "id": "20261115-us-stocks",
-   "cat": "経済・市場",
-   "imp": 2,
-   "title": "米国株、13日はS&P500・ナスダックが続落も週間では5週ぶり上昇",
-   "summary": "",
-   "url": "https://www.zaikei.co.jp/article/20261114/877579.html",
+   "url": "https://www.zaikei.co.jp/article/20261114/877619.html",
    "source": "財経新聞"
   },
   {
-   "id": "20261115-usdjpy-week",
+   "id": "20261116-gdp",
+   "cat": "経済・市場",
+   "imp": 2,
+   "title": "7〜9月期GDP、けさ8時50分に発表　予想は年率0.2%増と伸び悩み",
+   "summary": "",
+   "url": "https://www.oanda.jp/lab-education/market_news/jpgdp-q3-2026-preview/",
+   "source": "OANDA証券"
+  },
+  {
+   "id": "20261116-usdjpy",
    "cat": "為替・金利",
    "imp": 2,
-   "title": "ドル円、週間で157円台から160円台へ　ただし介入警戒で定着できず",
+   "title": "ドル円は159円台後半で越週　160円を超えると介入警戒、米利上げ観測とせめぎ合い",
    "summary": "",
-   "url": "https://fx.minkabu.jp/news/384469",
-   "source": "みんかぶFX"
+   "url": "https://www.zaikei.co.jp/article/20261114/877619.html",
+   "source": "財経新聞"
   },
   {
-   "id": "20261115-nvidia-ceo",
-   "cat": "企業",
-   "imp": 3,
-   "title": "エヌビディア、フアン氏後任のCEO選びが本格化　アームのハース氏やAMDのスー氏の名前も",
-   "summary": "",
-   "url": "https://www.oanda.jp/lab-education/market_news/kn_2026111401000803/",
-   "source": "OANDA（共同通信）"
-  },
-  {
-   "id": "20261115-nidec",
+   "id": "20261116-audit-deadline",
    "cat": "会計・監査",
    "imp": 3,
-   "title": "ニデック、半期報告書の提出期限延長の申請を検討　延長後の期限は12月16日に",
-   "summary": "",
-   "url": "https://www.nikkei.com/article/DGXZQOUF141VK0U6A111C2000000/",
-   "source": "日本経済新聞"
-  },
-  {
-   "id": "20261115-keio",
-   "cat": "会計・監査",
-   "imp": 2,
-   "title": "京王電鉄、ランサムウェア被害で半期報告書の期限を12月16日に延長",
-   "summary": "",
-   "url": "https://www.jpx.co.jp/listing/others/extended/index.html",
-   "source": "日本取引所グループ"
-  },
-  {
-   "id": "20261115-audit-standard",
-   "cat": "会計・監査",
-   "imp": 2,
-   "title": "【締切は明日】監査基準の改訂案への意見募集、16日まで",
+   "title": "【きょう締切】監査基準の改訂案、意見募集が16日で終了",
    "summary": "",
    "url": "https://www.fsa.go.jp/news/r8/sonota/20261016-2/20261016.html",
    "source": "金融庁"
   },
   {
-   "id": "20261115-anthropic-ipo",
-   "cat": "AI・テック",
+   "id": "20261116-asbj-gc",
+   "cat": "会計・監査",
    "imp": 3,
-   "title": "アンソロピック、19日にナスダック上場予定　仮条件は70〜78ドル、楽天証券の申込は19日未明まで",
+   "title": "ASBJの「継続企業に関する会計基準」案、コメント期限は12月25日",
    "summary": "",
-   "url": "https://media.paypay-sec.co.jp/cat5/ipo_anthropic",
-   "source": "PayPay証券"
+   "url": "https://www.asb-j.jp/jp/project/exposure_draft/y2026/2026-1023.html",
+   "source": "企業会計基準委員会"
   },
   {
-   "id": "20261115-chatgpt-wallet",
+   "id": "20261116-ecl",
+   "cat": "会計・監査",
+   "imp": 2,
+   "title": "改正金融商品会計基準、予想信用損失（ECL）モデルを導入　10月に確定",
+   "summary": "",
+   "url": "https://www.asb-j.jp/jp/accounting_standards/y2026/2026-1016.html",
+   "source": "企業会計基準委員会"
+  },
+  {
+   "id": "20261116-cpa-result",
+   "cat": "会計・監査",
+   "imp": 2,
+   "title": "公認会計士試験・論文式の合格発表は今週金曜（20日）10時",
+   "summary": "",
+   "url": "https://www.ing-edu.com/media/kaikeishi-goukaku-happyou/",
+   "source": "イング資格取得ラボ"
+  },
+  {
+   "id": "20261116-nvidia-china",
+   "cat": "AI・テック",
+   "imp": 3,
+   "title": "エヌビディアのチップ約120億ドル分を中国向けに仲介か　WSJが報道、決算直前に逆風",
+   "summary": "",
+   "url": "https://news.jkn.co.kr/editions/japanese/post/1095877",
+   "source": "財経日報"
+  },
+  {
+   "id": "20261116-opus55",
    "cat": "AI・テック",
    "imp": 2,
-   "title": "OpenAI、AIが代わりに買い物する「ChatGPT Wallet」を米国で開始",
+   "title": "アンソロピック、Claude Opus 5.5を有料プランの標準モデルに",
    "summary": "",
-   "url": "https://tech-noisy.com/2026/11/14/ai-daily-news-2026-11-13/",
-   "source": "TECH NOISY"
+   "url": "https://qiita.com/lhjjjk4/items/a23bf3b0e7e007cf25c4",
+   "source": "Qiita"
   },
   {
-   "id": "20261115-claude-mfg",
-   "cat": "AI・テック",
+   "id": "20261116-mitsui-jsr",
+   "cat": "企業",
+   "imp": 2,
+   "title": "三井化学、JSRを1兆8400億円で買収へ　国内化学で最大級の案件",
+   "summary": "",
+   "url": "https://kumanichi.com/articles/2055693",
+   "source": "熊本日日新聞（共同）"
+  },
+  {
+   "id": "20261116-hands-shibuya",
+   "cat": "企業",
    "imp": 1,
-   "title": "アンソロピック、製造業向け「Claude for Manufacturing」を提供",
+   "title": "ハンズ渋谷店が営業終了　48年の歴史に幕",
    "summary": "",
-   "url": "https://tech-noisy.com/2026/11/14/ai-daily-news-2026-11-13/",
-   "source": "TECH NOISY"
+   "url": "https://news.web.nhk/newsweb/na/nd-20261115de76062",
+   "source": "NHK"
   },
   {
-   "id": "20261115-summit",
-   "cat": "国際",
-   "imp": 3,
-   "title": "史上初の米中ロ首脳会談、19日に中国で開催へ　イラン情勢は議題、ウクライナは扱わず",
-   "summary": "",
-   "url": "https://www.jiji.com/jc/article?k=2026111400226&g=int&m=rss",
-   "source": "時事ドットコム"
-  },
-  {
-   "id": "20261115-consumption-tax",
+   "id": "20261116-takaichi-trip",
    "cat": "政治",
    "imp": 2,
-   "title": "消費減税法案、参院採決へ与党が多数派工作　国民民主・公明との連携を探る",
+   "title": "高市首相、きょうからフィリピン・中国へ　ASEAN・APEC出席も日中首脳会談は困難",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261114de76006",
-   "source": "NHK"
+   "url": "https://www.nippon.com/ja/articles/-/57459",
+   "source": "nippon.com（時事）"
   },
   {
-   "id": "20261115-samurai",
+   "id": "20261116-us-china-russia",
+   "cat": "国際",
+   "imp": 2,
+   "title": "史上初の米中ロ首脳会談、19日に深センで　核軍縮と中東が議題",
+   "summary": "",
+   "url": "https://www.afpbb.com/articles/-/3662415",
+   "source": "AFPBB News"
+  },
+  {
+   "id": "20261116-apbc",
    "cat": "スポーツ",
    "imp": 2,
-   "title": "侍ジャパン、豪州に16-1で7回コールド勝ち　3連勝で決勝へ、決勝は今夜19時",
+   "title": "侍ジャパン、韓国に5-1で勝ちアジアプロ野球チャンピオンシップ3連覇",
    "summary": "",
-   "url": "https://www.japan-baseball.jp/jp/news/press/20261114_2.html",
-   "source": "侍ジャパン公式"
-  },
-  {
-   "id": "20261115-sumo",
-   "cat": "スポーツ",
-   "imp": 1,
-   "title": "九州場所7日目：大の里が6連勝で1敗守る　新入幕の嵐富士も6勝、首位に7人",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261114de75973",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261115de76311",
    "source": "NHK"
   },
   {
-   "id": "20261115-ebina",
-   "cat": "社会",
-   "imp": 1,
-   "title": "海老名の2人死亡ひき逃げ、49歳のトラック運転手を逮捕　容疑は否認",
+   "id": "20261116-soccer-brazil",
+   "cat": "スポーツ",
+   "imp": 2,
+   "title": "サッカー日本代表、ブラジルに3-2で勝利　W杯の雪辱果たす",
    "summary": "",
-   "url": "https://news.ksb.co.jp/ann/article/17050908",
-   "source": "KSB（ANN）"
+   "url": "https://news.web.nhk/newsweb/na/nd-20261114de75990",
+   "source": "NHK"
   },
   {
-   "id": "20261115-takasaki-fire",
+   "id": "20261116-sumo",
+   "cat": "スポーツ",
+   "imp": 1,
+   "title": "九州場所中日：霧島が大関対決制し1敗守る、大の里も7勝目",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261115de76060",
+   "source": "NHK"
+  },
+  {
+   "id": "20261116-sanin-line",
    "cat": "社会",
    "imp": 1,
-   "title": "高崎市の繁華街で住宅火災、1人死亡　住人の87歳男性と連絡取れず",
+   "title": "島根・出雲でJR山陰線の特急と軽乗用車が衝突　車内から1人の遺体",
    "summary": "",
-   "url": "https://news.ksb.co.jp/ann/article/17050931",
-   "source": "KSB（ANN）"
+   "url": "https://news.web.nhk/newsweb/na/nd-20261116de76327",
+   "source": "NHK"
   }
  ],
  "page": "https://claude.ai/artifact/JexwF1HzfYaMYAbrjYzt3W"
