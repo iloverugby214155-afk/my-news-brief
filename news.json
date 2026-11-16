@@ -1,18 +1,18 @@
 {
- "date": "2026-11-16",
- "label": "2026年11月16日（月）",
+ "date": "2026-11-17",
+ "label": "2026年11月17日（火）",
  "headline": [
-  "今週はAI相場の分水嶺：17日エヌビディア決算、19日アンソロピック上場　日経平均は6万1142円から週明けへ",
-  "けさ8:50に7〜9月期GDP（予想は年率+0.2%）、ドル円は159円台後半で160円の介入警戒が続く",
-  "会計論点：監査基準改訂案の意見募集はきょう締切、ASBJの「継続企業に関する会計基準」案は12/25まで　論文式の合格発表は20日"
+  "AI・半導体株に売りが広がり、日経平均は1,480円安で再び6万円割れ。米ナスダックも16日は2％超下落",
+  "7〜9月期の実質GDPは年率0.1％減で4四半期ぶりのマイナス。それでも日銀の12月利上げ観測は崩れず、ドル円は159円台半ば",
+  "会計・監査では、監査基準改訂案（継続企業の前提・不正）の意見募集が締め切られた。ニデックは半期報告書の提出期限を1カ月延長"
  ],
  "markets": [
   {
-   "chg": "+322.99 (+0.53%)",
-   "dir": 1,
+   "chg": "-1,480.33 (-2.42%)",
+   "dir": -1,
    "name": "日経平均",
-   "note": "11/13終値",
-   "value": "61,142.35"
+   "note": "11/16終値",
+   "value": "59,662.02"
   },
   {
    "chg": "-30.73 (-0.40%)",
@@ -22,178 +22,169 @@
    "value": "7,561.67"
   },
   {
-   "chg": "-175.05 (-1.00%)",
-   "dir": -1,
+   "chg": "取得できず",
+   "dir": 0,
    "name": "FANG+",
-   "note": "11/13終値",
-   "value": "17,396.77"
+   "note": "",
+   "value": "—"
   },
   {
-   "chg": "-0.13円",
-   "dir": -1,
+   "chg": "+0.05円",
+   "dir": 0,
    "name": "ドル円",
-   "note": "11/13 NY終値",
-   "value": "159.71"
+   "note": "11/17 5時",
+   "value": "159.48"
   }
  ],
  "picks": [
-  "20261116-audit-deadline",
-  "20261116-asbj-gc",
-  "20261116-week-ahead"
+  "20261117-auditstd",
+  "20261117-disclaimer",
+  "20261117-nikkei"
  ],
  "items": [
   {
-   "id": "20261116-week-ahead",
+   "id": "20261117-nikkei",
    "cat": "経済・市場",
    "imp": 3,
-   "title": "今週の株式市場、17日のエヌビディア決算と19日のアンソロピック上場が焦点",
+   "title": "日経平均1,480円安、再び6万円割れ　アドバンテスト急落が重荷",
    "summary": "",
-   "url": "https://www.zaikei.co.jp/article/20261114/877619.html",
-   "source": "財経新聞"
+   "url": "https://www.oanda.jp/lab-education/market_news/mn_1044145_202611161747/",
+   "source": "OANDA"
   },
   {
-   "id": "20261116-gdp",
+   "id": "20261117-usstocks",
    "cat": "経済・市場",
-   "imp": 2,
-   "title": "7〜9月期GDP、けさ8時50分に発表　予想は年率0.2%増と伸び悩み",
+   "imp": 3,
+   "title": "米株、AI株売りが加速　16日はナスダックが一時2％超下落",
    "summary": "",
-   "url": "https://www.oanda.jp/lab-education/market_news/jpgdp-q3-2026-preview/",
-   "source": "OANDA証券"
+   "url": "https://fx.minkabu.jp/news/384588",
+   "source": "みんかぶFX"
   },
   {
-   "id": "20261116-usdjpy",
+   "id": "20261117-gdp",
+   "cat": "経済・市場",
+   "imp": 3,
+   "title": "7〜9月期GDP、年率0.1％減で4四半期ぶりマイナス　個人消費が2期連続減",
+   "summary": "",
+   "url": "https://www.nikkei.com/article/DGXZQOUA138F50T11C26A1000000/",
+   "source": "日本経済新聞"
+  },
+  {
+   "id": "20261117-usdjpy",
    "cat": "為替・金利",
    "imp": 2,
-   "title": "ドル円は159円台後半で越週　160円を超えると介入警戒、米利上げ観測とせめぎ合い",
+   "title": "ドル円は159円台半ばでもみ合い　日銀の12月利上げ観測は変わらず",
    "summary": "",
-   "url": "https://www.zaikei.co.jp/article/20261114/877619.html",
-   "source": "財経新聞"
+   "url": "https://www.oanda.jp/lab-education/market_news/kn_2026111702000008/",
+   "source": "OANDA（共同通信）"
   },
   {
-   "id": "20261116-audit-deadline",
+   "id": "20261117-auditstd",
    "cat": "会計・監査",
    "imp": 3,
-   "title": "【きょう締切】監査基準の改訂案、意見募集が16日で終了",
+   "title": "監査基準改訂案の意見募集が締め切り　継続企業の前提と不正対応を国際基準に合わせる",
    "summary": "",
    "url": "https://www.fsa.go.jp/news/r8/sonota/20261016-2/20261016.html",
    "source": "金融庁"
   },
   {
-   "id": "20261116-asbj-gc",
+   "id": "20261117-disclaimer",
    "cat": "会計・監査",
    "imp": 3,
-   "title": "ASBJの「継続企業に関する会計基準」案、コメント期限は12月25日",
+   "title": "監査意見不表明・レビュー結論不表明が2026年は9社、2021年以降で最多",
    "summary": "",
-   "url": "https://www.asb-j.jp/jp/project/exposure_draft/y2026/2026-1023.html",
-   "source": "企業会計基準委員会"
+   "url": "https://yasuda-cpa-office.com/post/post-20261116-01",
+   "source": "安田公認会計士事務所"
   },
   {
-   "id": "20261116-ecl",
+   "id": "20261117-nidec",
    "cat": "会計・監査",
-   "imp": 2,
-   "title": "改正金融商品会計基準、予想信用損失（ECL）モデルを導入　10月に確定",
-   "summary": "",
-   "url": "https://www.asb-j.jp/jp/accounting_standards/y2026/2026-1016.html",
-   "source": "企業会計基準委員会"
-  },
-  {
-   "id": "20261116-cpa-result",
-   "cat": "会計・監査",
-   "imp": 2,
-   "title": "公認会計士試験・論文式の合格発表は今週金曜（20日）10時",
-   "summary": "",
-   "url": "https://www.ing-edu.com/media/kaikeishi-goukaku-happyou/",
-   "source": "イング資格取得ラボ"
-  },
-  {
-   "id": "20261116-nvidia-china",
-   "cat": "AI・テック",
    "imp": 3,
-   "title": "エヌビディアのチップ約120億ドル分を中国向けに仲介か　WSJが報道、決算直前に逆風",
+   "title": "ニデック、半期報告書の提出期限を1カ月延長　訂正作業が海外で遅れ",
    "summary": "",
-   "url": "https://news.jkn.co.kr/editions/japanese/post/1095877",
-   "source": "財経日報"
-  },
-  {
-   "id": "20261116-opus55",
-   "cat": "AI・テック",
-   "imp": 2,
-   "title": "アンソロピック、Claude Opus 5.5を有料プランの標準モデルに",
-   "summary": "",
-   "url": "https://qiita.com/lhjjjk4/items/a23bf3b0e7e007cf25c4",
-   "source": "Qiita"
-  },
-  {
-   "id": "20261116-mitsui-jsr",
-   "cat": "企業",
-   "imp": 2,
-   "title": "三井化学、JSRを1兆8400億円で買収へ　国内化学で最大級の案件",
-   "summary": "",
-   "url": "https://kumanichi.com/articles/2055693",
-   "source": "熊本日日新聞（共同）"
-  },
-  {
-   "id": "20261116-hands-shibuya",
-   "cat": "企業",
-   "imp": 1,
-   "title": "ハンズ渋谷店が営業終了　48年の歴史に幕",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261115de76062",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261116de76825",
    "source": "NHK"
   },
   {
-   "id": "20261116-takaichi-trip",
+   "id": "20261117-ssbj",
+   "cat": "会計・監査",
+   "imp": 2,
+   "title": "金融庁、サステナ情報の保証制度の政令・府令案を公表　時価総額5,000億円以上が対象",
+   "summary": "",
+   "url": "https://www.fsa.go.jp/news/r8/shouken/20261113/20261113.html",
+   "source": "金融庁"
+  },
+  {
+   "id": "20261117-nvidia",
+   "cat": "企業",
+   "imp": 3,
+   "title": "エヌビディアのフアンCEOが辞任、クレスCFOが暫定CEOに",
+   "summary": "",
+   "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/",
+   "source": "NVIDIA IR"
+  },
+  {
+   "id": "20261117-anthropic",
+   "cat": "AI・テック",
+   "imp": 3,
+   "title": "アンソロピック、19日にナスダック上場へ　仮条件70〜78ドルで過去最大級の調達",
+   "summary": "",
+   "url": "https://s.kabutan.jp/news/n202611161401/",
+   "source": "株探"
+  },
+  {
+   "id": "20261117-fugaku",
+   "cat": "社会",
+   "imp": 2,
+   "title": "スパコン「富岳」に不正アクセス、運用停止　最大4,597人の情報流出の恐れ",
+   "summary": "",
+   "url": "https://www.riken.jp/pr/news/2026/20261116_2/index.html",
+   "source": "理化学研究所"
+  },
+  {
+   "id": "20261117-takaichi",
    "cat": "政治",
    "imp": 2,
-   "title": "高市首相、きょうからフィリピン・中国へ　ASEAN・APEC出席も日中首脳会談は困難",
+   "title": "高市首相がASEAN・APECへ出発　法の支配や先端技術の協力を訴え",
    "summary": "",
-   "url": "https://www.nippon.com/ja/articles/-/57459",
-   "source": "nippon.com（時事）"
+   "url": "https://news.web.nhk/newsweb/na/nd-20261116de76382",
+   "source": "NHK"
   },
   {
-   "id": "20261116-us-china-russia",
+   "id": "20261117-fukuoka",
+   "cat": "政治",
+   "imp": 1,
+   "title": "福岡市長選は再選挙へ　13人が乱立し法定得票に届かず",
+   "summary": "",
+   "url": "https://www.nikkei.com/article/DGXZQOJC0957Z0Z01C26A1000000/",
+   "source": "日本経済新聞"
+  },
+  {
+   "id": "20261117-uscnru",
    "cat": "国際",
-   "imp": 2,
-   "title": "史上初の米中ロ首脳会談、19日に深センで　核軍縮と中東が議題",
+   "imp": 3,
+   "title": "史上初の米中ロ首脳会談、19日に深圳で開催へ　核軍縮が焦点",
    "summary": "",
-   "url": "https://www.afpbb.com/articles/-/3662415",
-   "source": "AFPBB News"
+   "url": "https://www.nikkei.com/article/DGXZQOGM1644U0W6A111C2000000/",
+   "source": "日本経済新聞"
   },
   {
-   "id": "20261116-apbc",
-   "cat": "スポーツ",
-   "imp": 2,
-   "title": "侍ジャパン、韓国に5-1で勝ちアジアプロ野球チャンピオンシップ3連覇",
+   "id": "20261117-scs",
+   "cat": "国際",
+   "imp": 1,
+   "title": "南シナ海「行動規範」、年内の妥結を見送り　ASEAN首脳会議",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261115de76311",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261115de76312",
    "source": "NHK"
   },
   {
-   "id": "20261116-soccer-brazil",
-   "cat": "スポーツ",
-   "imp": 2,
-   "title": "サッカー日本代表、ブラジルに3-2で勝利　W杯の雪辱果たす",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261114de75990",
-   "source": "NHK"
-  },
-  {
-   "id": "20261116-sumo",
+   "id": "20261117-sumo",
    "cat": "スポーツ",
    "imp": 1,
-   "title": "九州場所中日：霧島が大関対決制し1敗守る、大の里も7勝目",
+   "title": "九州場所9日目、大の里ら4人が1敗で並ぶ大混戦",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261115de76060",
-   "source": "NHK"
-  },
-  {
-   "id": "20261116-sanin-line",
-   "cat": "社会",
-   "imp": 1,
-   "title": "島根・出雲でJR山陰線の特急と軽乗用車が衝突　車内から1人の遺体",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261116de76327",
-   "source": "NHK"
+   "url": "https://www.daily.co.jp/general/2026/11/16/0021041228.shtml",
+   "source": "デイリースポーツ"
   }
  ],
  "page": "https://claude.ai/artifact/JexwF1HzfYaMYAbrjYzt3W"
