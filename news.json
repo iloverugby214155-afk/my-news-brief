@@ -1,25 +1,25 @@
 {
- "date": "2026-11-17",
- "label": "2026年11月17日（火）",
+ "date": "2026-11-18",
+ "label": "2026年11月18日（水）",
  "headline": [
-  "AI・半導体株に売りが広がり、日経平均は1,480円安で再び6万円割れ。米ナスダックも16日は2％超下落",
-  "7〜9月期の実質GDPは年率0.1％減で4四半期ぶりのマイナス。それでも日銀の12月利上げ観測は崩れず、ドル円は159円台半ば",
-  "会計・監査では、監査基準改訂案（継続企業の前提・不正）の意見募集が締め切られた。ニデックは半期報告書の提出期限を1カ月延長"
+  "米国の半導体輸出規制の強化とエヌビディアの経営混乱を受けて、日経平均は801円安の5万8,860円と続落。17日のNY市場でもダウが一時1,000ドルを超えて下げた",
+  "エヌビディアの8〜10月期決算は日本時間18日早朝に発表。米小売売上高が予想を上回り、FRBの利上げ観測も強まる。ドル円は159円台前半",
+  "会計・監査では、海帆の期中レビューが継続企業の前提を理由に結論不表明。論文式試験の合格発表は20日（金）10時"
  ],
  "markets": [
   {
-   "chg": "-1,480.33 (-2.42%)",
+   "chg": "-801.59 (-1.34%)",
    "dir": -1,
    "name": "日経平均",
-   "note": "11/16終値",
-   "value": "59,662.02"
+   "note": "11/17終値",
+   "value": "58,860.43"
   },
   {
-   "chg": "-30.73 (-0.40%)",
+   "chg": "-145.08 (-1.92%)",
    "dir": -1,
    "name": "S&P500",
-   "note": "11/13終値",
-   "value": "7,561.67"
+   "note": "11/16終値",
+   "value": "7,416.59"
   },
   {
    "chg": "取得できず",
@@ -29,162 +29,162 @@
    "value": "—"
   },
   {
-   "chg": "+0.05円",
-   "dir": 0,
+   "chg": "-0.36円",
+   "dir": -1,
    "name": "ドル円",
-   "note": "11/17 5時",
-   "value": "159.48"
+   "note": "11/17 NY",
+   "value": "159.12"
   }
  ],
  "picks": [
-  "20261117-auditstd",
-  "20261117-disclaimer",
-  "20261117-nikkei"
+  "20261118-kaiho",
+  "20261118-cpaexam",
+  "20261118-nikkei"
  ],
  "items": [
   {
-   "id": "20261117-nikkei",
+   "id": "20261118-nikkei",
    "cat": "経済・市場",
    "imp": 3,
-   "title": "日経平均1,480円安、再び6万円割れ　アドバンテスト急落が重荷",
+   "title": "日経平均801円安で続落、5万8,860円　米半導体規制とエヌビディア混乱が重荷",
    "summary": "",
-   "url": "https://www.oanda.jp/lab-education/market_news/mn_1044145_202611161747/",
-   "source": "OANDA"
+   "url": "https://www.zaikei.co.jp/article/20261117/878046.html",
+   "source": "財経新聞"
   },
   {
-   "id": "20261117-usstocks",
+   "id": "20261118-usstocks",
    "cat": "経済・市場",
    "imp": 3,
-   "title": "米株、AI株売りが加速　16日はナスダックが一時2％超下落",
+   "title": "米株、売りが止まらず　17日はダウが一時1,000ドル超安",
    "summary": "",
-   "url": "https://fx.minkabu.jp/news/384588",
-   "source": "みんかぶFX"
+   "url": "https://www.chunichi.co.jp/article/1340947",
+   "source": "中日新聞"
   },
   {
-   "id": "20261117-gdp",
-   "cat": "経済・市場",
-   "imp": 3,
-   "title": "7〜9月期GDP、年率0.1％減で4四半期ぶりマイナス　個人消費が2期連続減",
-   "summary": "",
-   "url": "https://www.nikkei.com/article/DGXZQOUA138F50T11C26A1000000/",
-   "source": "日本経済新聞"
-  },
-  {
-   "id": "20261117-usdjpy",
-   "cat": "為替・金利",
-   "imp": 2,
-   "title": "ドル円は159円台半ばでもみ合い　日銀の12月利上げ観測は変わらず",
-   "summary": "",
-   "url": "https://www.oanda.jp/lab-education/market_news/kn_2026111702000008/",
-   "source": "OANDA（共同通信）"
-  },
-  {
-   "id": "20261117-auditstd",
-   "cat": "会計・監査",
-   "imp": 3,
-   "title": "監査基準改訂案の意見募集が締め切り　継続企業の前提と不正対応を国際基準に合わせる",
-   "summary": "",
-   "url": "https://www.fsa.go.jp/news/r8/sonota/20261016-2/20261016.html",
-   "source": "金融庁"
-  },
-  {
-   "id": "20261117-disclaimer",
-   "cat": "会計・監査",
-   "imp": 3,
-   "title": "監査意見不表明・レビュー結論不表明が2026年は9社、2021年以降で最多",
-   "summary": "",
-   "url": "https://yasuda-cpa-office.com/post/post-20261116-01",
-   "source": "安田公認会計士事務所"
-  },
-  {
-   "id": "20261117-nidec",
-   "cat": "会計・監査",
-   "imp": 3,
-   "title": "ニデック、半期報告書の提出期限を1カ月延長　訂正作業が海外で遅れ",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261116de76825",
-   "source": "NHK"
-  },
-  {
-   "id": "20261117-ssbj",
-   "cat": "会計・監査",
-   "imp": 2,
-   "title": "金融庁、サステナ情報の保証制度の政令・府令案を公表　時価総額5,000億円以上が対象",
-   "summary": "",
-   "url": "https://www.fsa.go.jp/news/r8/shouken/20261113/20261113.html",
-   "source": "金融庁"
-  },
-  {
-   "id": "20261117-nvidia",
+   "id": "20261118-nvidia",
    "cat": "企業",
    "imp": 3,
-   "title": "エヌビディアのフアンCEOが辞任、クレスCFOが暫定CEOに",
+   "title": "エヌビディア、CEO交代の混乱のなか8〜10月期決算へ",
    "summary": "",
-   "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/",
-   "source": "NVIDIA IR"
+   "url": "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026",
+   "source": "Kiplinger"
   },
   {
-   "id": "20261117-anthropic",
+   "id": "20261118-chiprule",
    "cat": "AI・テック",
-   "imp": 3,
-   "title": "アンソロピック、19日にナスダック上場へ　仮条件70〜78ドルで過去最大級の調達",
+   "imp": 2,
+   "title": "米国、AI半導体の規制を強化　第三国データセンター経由の利用を制限",
    "summary": "",
-   "url": "https://s.kabutan.jp/news/n202611161401/",
-   "source": "株探"
+   "url": "https://www.zaikei.co.jp/article/20261117/877970.html",
+   "source": "財経新聞"
   },
   {
-   "id": "20261117-fugaku",
+   "id": "20261118-usdjpy",
+   "cat": "為替・金利",
+   "imp": 2,
+   "title": "米小売売上高が予想上回る、FRBの利上げ観測強まる　ドル円は159円台前半",
+   "summary": "",
+   "url": "https://www.zaikei.co.jp/article/20261118/878098.html",
+   "source": "財経新聞"
+  },
+  {
+   "id": "20261118-kaiho",
+   "cat": "会計・監査",
+   "imp": 2,
+   "title": "海帆、中間連結財務諸表で期中レビューの結論不表明　2期連続",
+   "summary": "",
+   "url": "https://kaikeinews.hatenablog.com/entry/2026/11/16/141131",
+   "source": "会計ニュース・コレクター"
+  },
+  {
+   "id": "20261118-ecl",
+   "cat": "会計・監査",
+   "imp": 2,
+   "title": "予想信用損失モデルを導入した改正金融商品会計基準、大手法人が解説",
+   "summary": "",
+   "url": "https://www.ey.com/ja_jp/technical/corporate-accounting/accounting-topics/2026/accounting-topics-2026-11-16",
+   "source": "EY新日本"
+  },
+  {
+   "id": "20261118-cpaexam",
+   "cat": "会計・監査",
+   "imp": 2,
+   "title": "令和8年論文式試験の合格発表は20日10時",
+   "summary": "",
+   "url": "https://www.ing-edu.com/media/kaikeishi-goukaku-happyou/",
+   "source": "イング資格取得ラボ"
+  },
+  {
+   "id": "20261118-speee",
+   "cat": "会計・監査",
+   "imp": 1,
+   "title": "Speee、会計監査人をあずさからEY新日本へ交代",
+   "summary": "",
+   "url": "https://kaikeinews.hatenablog.com/entry/2026/11/17/020817",
+   "source": "会計ニュース・コレクター"
+  },
+  {
+   "id": "20261118-anthropic",
+   "cat": "AI・テック",
+   "imp": 2,
+   "title": "アンソロピック、きょう公開価格決定　19日にナスダック上場",
+   "summary": "",
+   "url": "https://finance.biggo.jp/news/c2c7599e-6470-4acf-8d75-437aaa29d17d",
+   "source": "BigGo ファイナンス"
+  },
+  {
+   "id": "20261118-msai",
+   "cat": "AI・テック",
+   "imp": 1,
+   "title": "マイクロソフト、低価格の自社AIモデル群を発表",
+   "summary": "",
+   "url": "https://www.marketscreener.com/news/microsoft-unveils-ai-models-for-coding-cybersecurity-as-it-takes-on-anthropic-openai-ce785edcdd8ff620",
+   "source": "MarketScreener"
+  },
+  {
+   "id": "20261118-pigeon",
+   "cat": "企業",
+   "imp": 2,
+   "title": "ピジョン、米ベビー用品会社を約610億円で買収",
+   "summary": "",
+   "url": "https://zaikei.co.jp/article/20261117/877892.html",
+   "source": "財経新聞"
+  },
+  {
+   "id": "20261118-apec",
+   "cat": "政治",
+   "imp": 2,
+   "title": "高市首相がAPECで訪中へ　習主席との関係改善、プーチン氏との接触が焦点",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261118de77470",
+   "source": "NHK"
+  },
+  {
+   "id": "20261118-uscnru",
+   "cat": "国際",
+   "imp": 2,
+   "title": "史上初の米中ロ首脳会談、19日に深圳で　中ロは18日に会談",
+   "summary": "",
+   "url": "https://www.nikkei.com/article/DGXZQOGR143EO0U6A111C2000000/",
+   "source": "日本経済新聞"
+  },
+  {
+   "id": "20261118-govpr",
    "cat": "社会",
-   "imp": 2,
-   "title": "スパコン「富岳」に不正アクセス、運用停止　最大4,597人の情報流出の恐れ",
+   "imp": 1,
+   "title": "政府広報に都市伝説系ユーチューバーを起用、SNSで批判",
    "summary": "",
-   "url": "https://www.riken.jp/pr/news/2026/20261116_2/index.html",
-   "source": "理化学研究所"
-  },
-  {
-   "id": "20261117-takaichi",
-   "cat": "政治",
-   "imp": 2,
-   "title": "高市首相がASEAN・APECへ出発　法の支配や先端技術の協力を訴え",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261116de76382",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261117de77253",
    "source": "NHK"
   },
   {
-   "id": "20261117-fukuoka",
-   "cat": "政治",
-   "imp": 1,
-   "title": "福岡市長選は再選挙へ　13人が乱立し法定得票に届かず",
-   "summary": "",
-   "url": "https://www.nikkei.com/article/DGXZQOJC0957Z0Z01C26A1000000/",
-   "source": "日本経済新聞"
-  },
-  {
-   "id": "20261117-uscnru",
-   "cat": "国際",
-   "imp": 3,
-   "title": "史上初の米中ロ首脳会談、19日に深圳で開催へ　核軍縮が焦点",
-   "summary": "",
-   "url": "https://www.nikkei.com/article/DGXZQOGM1644U0W6A111C2000000/",
-   "source": "日本経済新聞"
-  },
-  {
-   "id": "20261117-scs",
-   "cat": "国際",
-   "imp": 1,
-   "title": "南シナ海「行動規範」、年内の妥結を見送り　ASEAN首脳会議",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261115de76312",
-   "source": "NHK"
-  },
-  {
-   "id": "20261117-sumo",
+   "id": "20261118-sumo",
    "cat": "スポーツ",
    "imp": 1,
-   "title": "九州場所9日目、大の里ら4人が1敗で並ぶ大混戦",
+   "title": "九州場所10日目、大の里が熱海富士に敗れ2敗に後退",
    "summary": "",
-   "url": "https://www.daily.co.jp/general/2026/11/16/0021041228.shtml",
-   "source": "デイリースポーツ"
+   "url": "https://www.nikkei.com/article/DGXZQODH179YC0X11C26A1000000/",
+   "source": "日本経済新聞"
   }
  ],
  "page": "https://claude.ai/artifact/JexwF1HzfYaMYAbrjYzt3W"
