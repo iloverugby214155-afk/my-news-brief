@@ -1,199 +1,181 @@
 {
- "date": "2026-11-19",
- "label": "2026年11月19日（木）",
+ "date": "2026-11-20",
+ "label": "2026年11月20日（金）",
  "headline": [
-  "日経平均は164円高の5万9,024円と3日ぶり反発。エヌビディアは売上高が倍増の好決算も、18日の米国市場では株価が下げに転じ、ダウも続落",
-  "FOMC議事要旨でほぼ全員が「追加利上げが適切になりそう」との認識。12月利上げ観測は95%、ドル円は159円台前半。アンソロピックはきょうナスダック上場",
-  "会計・監査では、ニデックが半期報告書の提出期限を12月16日まで延長。エヌビディアも四半期報告書（10-Q）の提出を後ろ倒し"
+  "アンソロピックがナスダックに上場し、初値は公開価格を34%上回る111.5ドル。それでも19日の米国市場ではAI株の利益確定売りが広がり、ダウは1,000ドルを超えて下げた",
+  "日経平均は420円高の5万9,444円と続伸したが、夜間のCME先物は5万8,050円まで下落。ドル円は160円の手前で介入警戒が強まり、159円60銭前後。10月の全国CPIはきょう8時30分に発表",
+  "会計・監査では、JTがロシア子会社7社を連結除外し、1兆3,770億円の損失で最終赤字に。論文式試験の合格発表はきょう10時"
  ],
  "markets": [
   {
-   "chg": "+163.85 (+0.28%)",
+   "chg": "+419.93 (+0.71%)",
    "dir": 1,
    "name": "日経平均",
-   "note": "11/18終値",
-   "value": "59,024.28"
+   "note": "11/19終値",
+   "value": "59,444.21"
   },
   {
-   "chg": "-76.06 (-1.03%)",
+   "chg": "-16.90 (-0.23%)",
    "dir": -1,
    "name": "S&P500",
-   "note": "11/17終値",
-   "value": "7,340.53"
+   "note": "11/18終値",
+   "value": "7,323.63"
   },
   {
-   "chg": "取得できず",
-   "dir": 0,
+   "chg": "+108.85 (+0.65%)",
+   "dir": 1,
    "name": "FANG+",
-   "note": "",
-   "value": "—"
+   "note": "11/18終値",
+   "value": "16,798.84"
   },
   {
-   "chg": "+0.26円",
+   "chg": "+0.23円",
    "dir": 1,
    "name": "ドル円",
-   "note": "11/19 4時台",
-   "value": "159.38"
+   "note": "11/19 NY",
+   "value": "159.61"
   }
  ],
  "picks": [
-  "20261119-nidec",
-  "20261119-nvda10q",
-  "20261119-nikkei"
+  "20261120-anthropic",
+  "20261120-usstocks",
+  "20261120-amd"
  ],
  "items": [
   {
-   "id": "20261119-nikkei",
+   "id": "20261120-anthropic",
+   "cat": "AI・テック",
+   "imp": 3,
+   "title": "アンソロピックがナスダック上場、初値は公開価格の34%高　調達額は過去最大の約813億ドル",
+   "summary": "",
+   "url": "https://www.zaikei.co.jp/article/20261120/878474.html",
+   "source": "財経新聞"
+  },
+  {
+   "id": "20261120-usstocks",
    "cat": "経済・市場",
    "imp": 3,
-   "title": "日経平均、3日ぶり反発で5万9,024円　上下500円超の乱高下",
+   "title": "米国株が急落、ダウは1,000ドル超安　アンソロピック上場でもAI株の売りは止まらず",
    "summary": "",
-   "url": "https://kabutan.jp/news/marketnews/?b=n202611181161",
+   "url": "https://fx.minkabu.jp/news/385006",
+   "source": "みんかぶ"
+  },
+  {
+   "id": "20261120-nikkei",
+   "cat": "経済・市場",
+   "imp": 2,
+   "title": "日経平均は420円高の5万9,444円と続伸　ただ夜間の先物は1,690円安",
+   "summary": "",
+   "url": "https://finance.yahoo.co.jp/news/detail/b8cd27ce60060ea61c28b1ef82eaccc8be252b33",
+   "source": "Yahoo!ファイナンス"
+  },
+  {
+   "id": "20261120-jt",
+   "cat": "会計・監査",
+   "imp": 3,
+   "title": "JT、ロシア子会社7社を連結除外　1兆3,770億円の損失で最終赤字7,240億円、期末配当は半減",
+   "summary": "",
+   "url": "https://finance.biggo.jp/news/3a762abc-6b78-46c8-8a6a-17a43d97aa6f",
+   "source": "BigGo ファイナンス"
+  },
+  {
+   "id": "20261120-cpaexam",
+   "cat": "会計・監査",
+   "imp": 3,
+   "title": "令和8年公認会計士試験の合格発表、きょう10時",
+   "summary": "",
+   "url": "https://www.fsa.go.jp/cpaaob/kouninkaikeishi-shiken/keiji-20261021.html",
+   "source": "公認会計士・監査審査会"
+  },
+  {
+   "id": "20261120-chatgptacct",
+   "cat": "AI・テック",
+   "imp": 2,
+   "title": "OpenAI、会計向けの「ChatGPT for Accounting」を公開　QuickBooksやNetSuiteと連携",
+   "summary": "",
+   "url": "https://tech-noisy.com/2026/11/20/ai-daily-news-2026-11-19/",
+   "source": "tech-noisy"
+  },
+  {
+   "id": "20261120-gpt62",
+   "cat": "AI・テック",
+   "imp": 2,
+   "title": "OpenAIのGPT-6.2 Astra、外部向けモデルで初めて自己改善能力を「High」と評価",
+   "summary": "",
+   "url": "https://www.zaikei.co.jp/article/20261119/878381.html",
+   "source": "財経新聞"
+  },
+  {
+   "id": "20261120-amd",
+   "cat": "企業",
+   "imp": 2,
+   "title": "AMDが8%超安、空売りファンドが中国向け輸出規制違反の疑いを指摘",
+   "summary": "",
+   "url": "https://s.kabutan.jp/news/n202611200098/",
    "source": "株探"
   },
   {
-   "id": "20261119-usstocks",
-   "cat": "経済・市場",
-   "imp": 2,
-   "title": "米株、ダウは続落・ナスダックは小幅高　エヌビディア好決算でも売り止まらず",
-   "summary": "",
-   "url": "https://fx.minkabu.jp/news/384871",
-   "source": "みんかぶFX"
-  },
-  {
-   "id": "20261119-nvidia",
-   "cat": "企業",
-   "imp": 3,
-   "title": "エヌビディア、売上高2倍の1,158億ドル　見通しも強気だが株価は反落",
-   "summary": "",
-   "url": "https://www.oanda.jp/lab-education/market_news/20261118_nvidia_earnings_result/",
-   "source": "OANDA証券"
-  },
-  {
-   "id": "20261119-nvda10q",
-   "cat": "会計・監査",
-   "imp": 2,
-   "title": "エヌビディア、四半期報告書（10-Q）は決算と同時に出さず　約1,180億ドルの金融保証も開示",
-   "summary": "",
-   "url": "https://www.fool.com/investing/2026/11/18/nvidia-just-demolished-earnings-but-the-stock-is-still-plunging-the-reason-is-obvious/",
-   "source": "The Motley Fool"
-  },
-  {
-   "id": "20261119-fomc",
+   "id": "20261120-usdjpy",
    "cat": "為替・金利",
-   "imp": 3,
-   "title": "FOMC議事要旨、ほぼ全員が「追加利上げが適切に」　12月利上げ観測95%",
+   "imp": 2,
+   "title": "ドル円、160円の手前で押し戻される　介入警戒と米指標の弱さで159円60銭台",
    "summary": "",
-   "url": "https://www.oanda.jp/lab-education/market_news/fomc-minutes-oct-2026/",
+   "url": "https://www.zaikei.co.jp/article/20261120/878477.html",
+   "source": "財経新聞"
+  },
+  {
+   "id": "20261120-cpi",
+   "cat": "為替・金利",
+   "imp": 2,
+   "title": "10月の全国CPI、きょう8時30分に発表　コアは+2.3%に加速する見通し",
+   "summary": "",
+   "url": "https://www.oanda.jp/lab-education/market_news/jpcpi-oct-2026-preview/",
    "source": "OANDA証券"
   },
   {
-   "id": "20261119-trade",
-   "cat": "経済・市場",
-   "imp": 2,
-   "title": "10月の貿易赤字は4,765億円、6カ月連続　輸出入とも過去最大",
-   "summary": "",
-   "url": "https://ryukyushimpo.jp/kyodo/entry-5605344.html",
-   "source": "琉球新報（共同通信）"
-  },
-  {
-   "id": "20261119-anthropic",
-   "cat": "AI・テック",
-   "imp": 3,
-   "title": "アンソロピック、きょうナスダック上場　評価額は最大約1.4兆ドル",
-   "summary": "",
-   "url": "https://forbesjapan.com/articles/detail/108429",
-   "source": "Forbes JAPAN"
-  },
-  {
-   "id": "20261119-nsa",
-   "cat": "AI・テック",
-   "imp": 1,
-   "title": "米NSAの機密通信網が一時停止　米国でシステム障害が相次ぐ",
-   "summary": "",
-   "url": "https://forbesjapan.com/articles/detail/108437",
-   "source": "Forbes JAPAN"
-  },
-  {
-   "id": "20261119-nidec",
-   "cat": "会計・監査",
-   "imp": 3,
-   "title": "ニデック、半期報告書の提出期限を12月16日まで延長　訂正作業が長引く",
-   "summary": "",
-   "url": "https://www.ktv.jp/news/articles/?id=31001",
-   "source": "関西テレビ"
-  },
-  {
-   "id": "20261119-discwg",
-   "cat": "会計・監査",
-   "imp": 2,
-   "title": "金融審議会ディスクロージャーWGが第7回会合　経団連や関経連から意見聴取",
-   "summary": "",
-   "url": "https://www.fsa.go.jp/singi/singi_kinyu/disclosure_wg/shiryou/20261118.html",
-   "source": "金融庁"
-  },
-  {
-   "id": "20261119-airwater",
-   "cat": "会計・監査",
-   "imp": 2,
-   "title": "エア・ウォーター、中間期は黒字転換も通期予想を下方修正　不適切会計の対応費用が重荷",
-   "summary": "",
-   "url": "https://kaikeinews.hatenablog.com/",
-   "source": "会計ニュース・コレクター"
-  },
-  {
-   "id": "20261119-auditchange",
-   "cat": "会計・監査",
-   "imp": 1,
-   "title": "会計監査人の交代が続く　イルグルムはPwCからアヴァンティアへ",
-   "summary": "",
-   "url": "https://kaikeinews.hatenablog.com/",
-   "source": "会計ニュース・コレクター"
-  },
-  {
-   "id": "20261119-hybe",
-   "cat": "企業",
-   "imp": 1,
-   "title": "HYBE JAPAN、キーホルダーにTOB　1株1,200円で上場は維持",
-   "summary": "",
-   "url": "https://www.nihon-ma.co.jp/news/20261118_4712-15/",
-   "source": "日本M&Aセンター"
-  },
-  {
-   "id": "20261119-cyber",
-   "cat": "社会",
-   "imp": 1,
-   "title": "不正アクセス相次ぐ　金融庁は地銀に委託先点検を要請、厚労省委託先でも漏えいの疑い",
-   "summary": "",
-   "url": "https://www.nikkei.com/article/DGXZQOUB186HK0Y6A111C2000000/",
-   "source": "日本経済新聞"
-  },
-  {
-   "id": "20261119-japanchina",
+   "id": "20261120-takaichiputin",
    "cat": "政治",
    "imp": 2,
-   "title": "高市首相、深圳で習主席と握手　会談は見送り、プーチン氏とも言葉交わす",
+   "title": "高市首相、プーチン大統領と7年ぶりの直接対話　記者の解放とJT大統領令の撤回を求める",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261119de78117",
-   "source": "NHK"
+   "url": "https://www.nippon.com/ja/articles/-/57737",
+   "source": "nippon.com（時事通信）"
   },
   {
-   "id": "20261119-uscr",
+   "id": "20261120-uscnru",
    "cat": "国際",
-   "imp": 3,
-   "title": "史上初の米中ロ首脳会談、きょう深圳で　核軍縮やイラン情勢を議論",
+   "imp": 2,
+   "title": "史上初の米中ロ首脳会談、「平和宣言」をまとめる　核リスクの低減へ対話",
    "summary": "",
    "url": "https://news.web.nhk/newsweb/na/nd-20261119de78117",
    "source": "NHK"
   },
   {
-   "id": "20261119-sumo",
+   "id": "20261120-cyber",
+   "cat": "社会",
+   "imp": 2,
+   "title": "情報流出が相次ぎ、警察のサイバー部門が臨時会議　「待ちの捜査」から攻めの捜査へ",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261119de78229",
+   "source": "NHK"
+  },
+  {
+   "id": "20261120-sumo",
    "cat": "スポーツ",
    "imp": 1,
-   "title": "九州場所11日目、若元春が単独首位　大の里は2敗を守る",
+   "title": "九州場所12日目、若元春が1敗を守る　13日目は大の里と対戦",
    "summary": "",
-   "url": "https://www.nikkei.com/article/DGXZQODH18A0Q0Y6A111C2000000/",
-   "source": "日本経済新聞"
+   "url": "https://news.web.nhk/newsweb/na/nd-20261119de78449",
+   "source": "NHK"
+  },
+  {
+   "id": "20261120-samurai",
+   "cat": "スポーツ",
+   "imp": 1,
+   "title": "サッカー日本代表、森保監督の最後の試合はパラグアイに1-2　福田師王が代表初ゴール",
+   "summary": "",
+   "url": "https://www.tv-tokyo.co.jp/sports/articles/2026/11/042940.html",
+   "source": "テレ東スポーツ"
   }
  ],
  "page": "https://claude.ai/artifact/JexwF1HzfYaMYAbrjYzt3W"
