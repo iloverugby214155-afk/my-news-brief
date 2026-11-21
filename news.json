@@ -1,10 +1,10 @@
 {
- "date": "2026-11-21",
- "label": "2026年11月21日（土）",
+ "date": "2026-11-22",
+ "label": "2026年11月22日（日）",
  "headline": [
-  "日経平均は3,007円安の5万6,436円と歴代5位の下げ幅。ソフトバンクGが14%超安など、アンソロピック上場後のAI株売りが東京にも波及した",
-  "20日の米国市場でもナスダックが一時4%超下げ、年初来の上昇分を失う。アンソロピック株は上場2日目に公開価格83ドルの近くまで下落。ドル円はリスク回避の円買いで158円台半ば",
-  "会計・監査では、令和8年公認会計士試験の合格者が1,687人（合格率7.4%）と発表。KARTEへの不正アクセスでプレイドが最終赤字20億円に下方修正"
+  "20日の米国市場はナスダックが5.28%安、S&P500も3.70%安で調整局面入り。FANG+指数は6.41%安と、保有投信の3指数がそろって大きく下げた週末",
+  "エヌビディアは「SECが会計処理を調査」との報道で14%安。10-Qの提出も独立委員会の調査で遅れており、会計・開示の信頼性が焦点に",
+  "会計ではASBJが排出量取引制度の会計処理の公開草案（第75号）を公表、コメント期限は2027年1月22日。東京市場は23日休場で、取引は24日から"
  ],
  "markets": [
   {
@@ -15,184 +15,184 @@
    "value": "56,436.65"
   },
   {
-   "chg": "-147.80 (-2.02%)",
+   "chg": "-265.44 (-3.70%)",
    "dir": -1,
    "name": "S&P500",
-   "note": "11/19終値",
-   "value": "7,175.83"
+   "note": "11/20終値",
+   "value": "6,910.39"
   },
   {
-   "chg": "-417.91 (-2.49%)",
+   "chg": "-1,049.81 (-6.41%)",
    "dir": -1,
    "name": "FANG+",
-   "note": "11/19終値",
-   "value": "16,380.93"
+   "note": "11/20終値",
+   "value": "15,331.12"
   },
   {
-   "chg": "-1.14円",
+   "chg": "-1.10円",
    "dir": -1,
    "name": "ドル円",
    "note": "11/20 NY",
-   "value": "158.47"
+   "value": "158.59"
   }
  ],
  "picks": [
-  "20261121-usstocks",
-  "20261121-anthropic",
-  "20261121-nikkei"
+  "20261122-usstocks",
+  "20261122-nvidia",
+  "20261122-anthropic"
  ],
  "items": [
   {
-   "id": "20261121-nikkei",
+   "id": "20261122-usstocks",
    "cat": "経済・市場",
    "imp": 3,
-   "title": "日経平均が3,007円安、下げ幅は歴代5位　AI・半導体株が総崩れ",
+   "title": "米国株が全面安、ナスダック5.28%安　ダウとS&P500は調整局面入り",
    "summary": "",
-   "url": "https://www.oanda.jp/lab-education/market_news/20261120_nikkei_3000_drop/",
-   "source": "OANDA証券"
+   "url": "https://s.kabutan.jp/news/n202611210170/",
+   "source": "株探"
   },
   {
-   "id": "20261121-usstocks",
+   "id": "20261122-nvidia",
+   "cat": "会計・監査",
+   "imp": 3,
+   "title": "エヌビディア14%安、SECが会計処理を調査と報道　10-Qの提出も遅れる",
+   "summary": "",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
+   "source": "The Motley Fool"
+  },
+  {
+   "id": "20261122-fangplus",
    "cat": "経済・市場",
-   "imp": 3,
-   "title": "米国株の下げ止まらず、ナスダックは一時4%超安で年初来マイナスに",
-   "summary": "",
-   "url": "https://sg.finance.yahoo.com/news/nasdaq-wipes-gains-anthropic-ipo-173252248.html",
-   "source": "Yahoo Finance（CNN）"
-  },
-  {
-   "id": "20261121-anthropic",
-   "cat": "AI・テック",
-   "imp": 3,
-   "title": "アンソロピック株、上場2日目に急落　一時12%安で公開価格に迫る",
-   "summary": "",
-   "url": "https://news.ksb.co.jp/ann/article/17070022",
-   "source": "KSB（ANN）"
-  },
-  {
-   "id": "20261121-softbank",
-   "cat": "企業",
    "imp": 2,
-   "title": "ソフトバンクGが14%超安、3,000円を割り込む",
+   "title": "FANG+指数が6.41%安、ナスダックは今週だけで時価総額4兆ドルが消える",
    "summary": "",
-   "url": "https://jp.investing.com/news/stock-market-news/article-1765373",
-   "source": "Investing.com（フィスコ）"
-  },
-  {
-   "id": "20261121-cpaexam",
-   "cat": "会計・監査",
-   "imp": 3,
-   "title": "令和8年公認会計士試験、合格者1,687人・合格率7.4%",
-   "summary": "",
-   "url": "https://kaikeinews.hatenablog.com/entry/2026/11/20/103425",
-   "source": "会計ニュース・コレクター"
-  },
-  {
-   "id": "20261121-plaid",
-   "cat": "会計・監査",
-   "imp": 3,
-   "title": "プレイド、KARTEへの不正アクセスで最終赤字20億円に下方修正",
-   "summary": "",
-   "url": "https://www.newsweekjapan.jp/articles/-/340837",
-   "source": "ニューズウィーク日本版（ロイター）"
-  },
-  {
-   "id": "20261121-gc",
-   "cat": "会計・監査",
-   "imp": 2,
-   "title": "継続企業の前提の評価期間を延長へ　ASBJ公開草案のコメント期限は12月25日",
-   "summary": "",
-   "url": "https://www.yasuda-cpa-office.com/post/post-20261118-03",
-   "source": "安田公認会計士事務所"
-  },
-  {
-   "id": "20261121-rakuten",
-   "cat": "企業",
-   "imp": 2,
-   "title": "楽天証券で最大447万口座の情報漏えいの可能性、金融庁が報告徴求命令",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261119de78725",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79604",
    "source": "NHK"
   },
   {
-   "id": "20261121-cpi",
-   "cat": "為替・金利",
+   "id": "20261122-anthropic",
+   "cat": "AI・テック",
    "imp": 2,
-   "title": "10月の全国コアCPIは+2.2%、予想をやや下回る　コメの大幅下落が重し",
+   "title": "アンソロピック株、上場2日目は8.5%安の88.91ドルで終える",
    "summary": "",
-   "url": "https://www.newsweekjapan.jp/articles/-/340767",
-   "source": "ニューズウィーク日本版（ロイター）"
-  },
-  {
-   "id": "20261121-usdjpy",
-   "cat": "為替・金利",
-   "imp": 2,
-   "title": "ドル円は158円台半ばへ下落　株安と米金利低下で円買い",
-   "summary": "",
-   "url": "https://fx.minkabu.jp/news/385137",
+   "url": "https://fx.minkabu.jp/news/385144",
    "source": "みんかぶFX"
   },
   {
-   "id": "20261121-gemini",
-   "cat": "AI・テック",
+   "id": "20261122-nikkeiweek",
+   "cat": "経済・市場",
    "imp": 2,
-   "title": "Google、新モデル「Gemini 4 Neon」を発表　上位版の約3倍速く、コストは約6割減",
+   "title": "日経平均は1週間で7.7%安、23日は休場　夜間先物は5万4,000円台",
    "summary": "",
-   "url": "https://www.financialexpress.com/life/technology-google-gemini-4-neon-google-launches-new-ai-model-for-coding-research-cyber-defence-4388529/",
-   "source": "Financial Express"
+   "url": "https://s.kabutan.jp/news/n202611210170/",
+   "source": "株探"
   },
   {
-   "id": "20261121-chatgpthealth",
-   "cat": "AI・テック",
+   "id": "20261122-usdjpy",
+   "cat": "為替・金利",
+   "imp": 2,
+   "title": "ドル円は158円台半ばで週末へ　来週は米PCEと日銀委員の発言に注目",
+   "summary": "",
+   "url": "https://fx.minkabu.jp/news/385157",
+   "source": "みんかぶFX"
+  },
+  {
+   "id": "20261122-asbj-ets",
+   "cat": "会計・監査",
+   "imp": 3,
+   "title": "ASBJ、排出量取引制度の会計処理の公開草案を公表　コメント期限は1月22日",
+   "summary": "",
+   "url": "https://www.asb-j.jp/jp/project/exposure_draft/y2026/2026-1120.html",
+   "source": "企業会計基準委員会"
+  },
+  {
+   "id": "20261122-cryptotax",
+   "cat": "会計・監査",
    "imp": 1,
-   "title": "ChatGPTの「Health」機能の会話、設定次第で学習に利用へ",
+   "title": "暗号資産の申告漏れ39億円、東京国税局が調査体制を強化へ",
    "summary": "",
-   "url": "https://techfeatured.com/20869/chatgpt-health-chats-train-openai-models-opt-out-november-19",
-   "source": "TechFeatured"
+   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79765",
+   "source": "NHK"
   },
   {
-   "id": "20261121-icj",
+   "id": "20261122-ma",
+   "cat": "企業",
+   "imp": 2,
+   "title": "ワコムとI-neがMBOで非公開化へ　リクルートはスタディサプリ事業を売却",
+   "summary": "",
+   "url": "https://maonline.jp/news/summary20261121",
+   "source": "M&A Online"
+  },
+  {
+   "id": "20261122-datacenter",
+   "cat": "AI・テック",
+   "imp": 2,
+   "title": "トランプ大統領、米企業の国外データセンター建設を認めない方針　巨額の課税も",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79543",
+   "source": "NHK"
+  },
+  {
+   "id": "20261122-mercari",
+   "cat": "社会",
+   "imp": 1,
+   "title": "メルカリ、業務で使うAIツールに入力した個人情報が漏えいのおそれ",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79616",
+   "source": "NHK"
+  },
+  {
+   "id": "20261122-zelensky",
    "cat": "国際",
    "imp": 2,
-   "title": "国際司法裁判所、ロヒンギャ迫害をジェノサイドと認定　国家の責任を初めて認める",
+   "title": "ゼレンスキー氏「プーチンは殺人者」　トランプ氏の「友人」発言に反発",
    "summary": "",
-   "url": "https://www.afpbb.com/articles/-/3663328",
-   "source": "AFPBB News"
+   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79605",
+   "source": "NHK"
   },
   {
-   "id": "20261121-ukraine",
+   "id": "20261122-ccw",
    "cat": "国際",
-   "imp": 2,
-   "title": "ロシアがウクライナに大規模攻撃、米中ロ会談の直後　トランプ氏は和平に前向き",
+   "imp": 1,
+   "title": "AI自律兵器の国際会議、法的拘束力のあるルールで合意できず",
    "summary": "",
-   "url": "https://www.afpbb.com/articles/-/3663506",
-   "source": "AFPBB News"
+   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79771",
+   "source": "NHK"
   },
   {
-   "id": "20261121-diet",
+   "id": "20261122-seki",
    "cat": "政治",
    "imp": 2,
-   "title": "重要土地の取得規制強化法案が衆院委で可決　定数31削減法案も質疑続く",
+   "title": "野党が関文科相の問責決議案を検討、自民は消費税減税法案の成立を優先",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261120de79452",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79553",
    "source": "NHK"
   },
   {
-   "id": "20261121-cyber",
-   "cat": "社会",
+   "id": "20261122-sumo",
+   "cat": "スポーツ",
    "imp": 2,
-   "title": "政府ネットワークにも不正アクセス、情報漏えいの可能性　サイバー被害が相次ぐ",
+   "title": "九州場所、きょう千秋楽　大の里と若元春が2敗で並び、熱海富士が1差",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261120de79445",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79769",
    "source": "NHK"
   },
   {
-   "id": "20261121-sumo",
+   "id": "20261122-rugby",
+   "cat": "スポーツ",
+   "imp": 2,
+   "title": "ラグビー日本代表、スコットランドに5-67で大敗　欧州遠征は1勝5敗",
+   "summary": "",
+   "url": "https://www.daily.co.jp/general/2026/11/22/0021060927.shtml",
+   "source": "デイリースポーツ"
+  },
+  {
+   "id": "20261122-shimada",
    "cat": "スポーツ",
    "imp": 1,
-   "title": "九州場所13日目、大の里が若元春を破り2敗で首位に並ぶ",
+   "title": "フィギュアGP第5戦、島田麻央が2連勝でファイナル進出決定",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261120de79095",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79775",
    "source": "NHK"
   }
  ],
