@@ -1,10 +1,10 @@
 {
- "date": "2026-11-22",
- "label": "2026年11月22日（日）",
+ "date": "2026-11-23",
+ "label": "2026年11月23日（月）",
  "headline": [
-  "20日の米国市場はナスダックが5.28%安、S&P500も3.70%安で調整局面入り。FANG+指数は6.41%安と、保有投信の3指数がそろって大きく下げた週末",
-  "エヌビディアは「SECが会計処理を調査」との報道で14%安。10-Qの提出も独立委員会の調査で遅れており、会計・開示の信頼性が焦点に",
-  "会計ではASBJが排出量取引制度の会計処理の公開草案（第75号）を公表、コメント期限は2027年1月22日。東京市場は23日休場で、取引は24日から"
+  "東京市場はきょう勤労感謝の日で休場。20日の米株急落を受け、シカゴの日経平均先物は大取終値比1,865円安で、24日の連休明けは下値を探る展開が警戒される",
+  "アンソロピック株は金曜の安値が公開価格83ドルのわずか5セント上。今週は米PCE（25日）と感謝祭休場が控え、12月FOMCの利上げはほぼ織り込み済み",
+  "会計・監査ではEY新日本が監査人事評価にAIスキル4項目を追加。国際ではロシアのミサイル3発がポーランド領内に落下し、NATOがきょう理事会を開く"
  ],
  "markets": [
   {
@@ -29,170 +29,179 @@
    "value": "15,331.12"
   },
   {
-   "chg": "-1.10円",
+   "chg": "-0.25円",
    "dir": -1,
    "name": "ドル円",
    "note": "11/20 NY",
-   "value": "158.59"
+   "value": "158.43"
   }
  ],
  "picks": [
-  "20261122-usstocks",
-  "20261122-nvidia",
-  "20261122-anthropic"
+  "20261123-usweek",
+  "20261123-anthropic",
+  "20261123-tokyo24"
  ],
  "items": [
   {
-   "id": "20261122-usstocks",
+   "id": "20261123-usweek",
    "cat": "経済・市場",
    "imp": 3,
-   "title": "米国株が全面安、ナスダック5.28%安　ダウとS&P500は調整局面入り",
+   "title": "米株は週間でS&P500が約8.6%安、ナスダックは約10%安　VIXは35台に上昇",
    "summary": "",
-   "url": "https://s.kabutan.jp/news/n202611210170/",
-   "source": "株探"
+   "url": "https://www.zaikei.co.jp/article/20261121/878679.html",
+   "source": "財経新聞"
   },
   {
-   "id": "20261122-nvidia",
-   "cat": "会計・監査",
+   "id": "20261123-tokyo24",
+   "cat": "経済・市場",
    "imp": 3,
-   "title": "エヌビディア14%安、SECが会計処理を調査と報道　10-Qの提出も遅れる",
+   "title": "東京市場はきょう休場、シカゴ日経先物は1,865円安　24日の連休明けに下押し圧力",
    "summary": "",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
-   "source": "The Motley Fool"
+   "url": "https://s.minkabu.jp/news/4670279",
+   "source": "株探（みんかぶ）"
   },
   {
-   "id": "20261122-fangplus",
-   "cat": "経済・市場",
-   "imp": 2,
-   "title": "FANG+指数が6.41%安、ナスダックは今週だけで時価総額4兆ドルが消える",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79604",
-   "source": "NHK"
-  },
-  {
-   "id": "20261122-anthropic",
-   "cat": "AI・テック",
-   "imp": 2,
-   "title": "アンソロピック株、上場2日目は8.5%安の88.91ドルで終える",
-   "summary": "",
-   "url": "https://fx.minkabu.jp/news/385144",
-   "source": "みんかぶFX"
-  },
-  {
-   "id": "20261122-nikkeiweek",
-   "cat": "経済・市場",
-   "imp": 2,
-   "title": "日経平均は1週間で7.7%安、23日は休場　夜間先物は5万4,000円台",
-   "summary": "",
-   "url": "https://s.kabutan.jp/news/n202611210170/",
-   "source": "株探"
-  },
-  {
-   "id": "20261122-usdjpy",
+   "id": "20261123-usdjpy",
    "cat": "為替・金利",
    "imp": 2,
-   "title": "ドル円は158円台半ばで週末へ　来週は米PCEと日銀委員の発言に注目",
+   "title": "ドル円は158円台半ばで週越し　160円手前の介入警戒と米利上げ観測の綱引き",
    "summary": "",
-   "url": "https://fx.minkabu.jp/news/385157",
-   "source": "みんかぶFX"
+   "url": "https://www.sanin-chuo.co.jp/articles/-/1120212",
+   "source": "共同通信（山陰中央新報）"
   },
   {
-   "id": "20261122-asbj-ets",
-   "cat": "会計・監査",
-   "imp": 3,
-   "title": "ASBJ、排出量取引制度の会計処理の公開草案を公表　コメント期限は1月22日",
-   "summary": "",
-   "url": "https://www.asb-j.jp/jp/project/exposure_draft/y2026/2026-1120.html",
-   "source": "企業会計基準委員会"
-  },
-  {
-   "id": "20261122-cryptotax",
-   "cat": "会計・監査",
-   "imp": 1,
-   "title": "暗号資産の申告漏れ39億円、東京国税局が調査体制を強化へ",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79765",
-   "source": "NHK"
-  },
-  {
-   "id": "20261122-ma",
-   "cat": "企業",
+   "id": "20261123-usweekahead",
+   "cat": "為替・金利",
    "imp": 2,
-   "title": "ワコムとI-neがMBOで非公開化へ　リクルートはスタディサプリ事業を売却",
+   "title": "今週の米国は25日にPCE・GDP・ベージュブックが集中、26日は感謝祭で休場",
    "summary": "",
-   "url": "https://maonline.jp/news/summary20261121",
-   "source": "M&A Online"
+   "url": "https://www.gaitame.com/media/entry/2026/11/22/070000",
+   "source": "外為どっとコム"
   },
   {
-   "id": "20261122-datacenter",
+   "id": "20261123-anthropic",
+   "cat": "AI・テック",
+   "imp": 3,
+   "title": "アンソロピック株、金曜の安値は公開価格の5セント上　アナリスト目標の平均は134ドル",
+   "summary": "",
+   "url": "https://financefeeds.com/anthropic-ant-stock-88-91-sunday-week-ahead-second-week-after-ipo-bull-97-bear-83/",
+   "source": "FinanceFeeds"
+  },
+  {
+   "id": "20261123-nvidia",
+   "cat": "企業",
+   "imp": 3,
+   "title": "エヌビディア、取締役会はフアン氏の復帰を否定　加州司法長官も召喚状、12月1日に議会聴取",
+   "summary": "",
+   "url": "https://forbes.com/sites/alisondurkee/2026/11/20/jensen-huang-ousted-timeline-of-the-nvidia-scandal-as-california-launches-investigation",
+   "source": "Forbes"
+  },
+  {
+   "id": "20261123-oracle",
    "cat": "AI・テック",
    "imp": 2,
-   "title": "トランプ大統領、米企業の国外データセンター建設を認めない方針　巨額の課税も",
+   "title": "オラクル、OpenAI向けインフラの資金を全額確保と発表　株価は8%超安",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79543",
-   "source": "NHK"
+   "url": "https://www.oracle.com/news/",
+   "source": "Oracle News"
   },
   {
-   "id": "20261122-mercari",
-   "cat": "社会",
+   "id": "20261123-chatgptdown",
+   "cat": "AI・テック",
    "imp": 1,
-   "title": "メルカリ、業務で使うAIツールに入力した個人情報が漏えいのおそれ",
+   "title": "ChatGPTで約3時間半の障害、ピーク時の失敗率75%　データベース保守中のトラブル",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79616",
-   "source": "NHK"
+   "url": "https://status.openai.com/incidents/01JMYB602A6H2E04Y1497J434X/write-up",
+   "source": "OpenAI Status"
   },
   {
-   "id": "20261122-zelensky",
-   "cat": "国際",
+   "id": "20261123-genie4",
+   "cat": "AI・テック",
+   "imp": 1,
+   "title": "Google、対話型の世界モデル「Genie 4」を開発者向けAPIで提供開始",
+   "summary": "",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api",
+   "source": "Google Blog"
+  },
+  {
+   "id": "20261123-eyai",
+   "cat": "会計・監査",
    "imp": 2,
-   "title": "ゼレンスキー氏「プーチンは殺人者」　トランプ氏の「友人」発言に反発",
+   "title": "EY新日本、監査人に求めるAIスキル4項目を定め今年度から人事評価に反映",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79605",
-   "source": "NHK"
+   "url": "https://www.ey.com/ja_jp/newsroom/2026/11/ey-japan-news-release-2026-11-19",
+   "source": "EY Japan"
   },
   {
-   "id": "20261122-ccw",
-   "cat": "国際",
+   "id": "20261123-kanade",
+   "cat": "会計・監査",
    "imp": 1,
-   "title": "AI自律兵器の国際会議、法的拘束力のあるルールで合意できず",
+   "title": "かなで監査法人が京都の監査法人京立志を吸収合併へ　関西の基盤を強化",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79771",
+   "url": "https://kaikeinews.hatenablog.com/entry/2026/11/20/113155",
+   "source": "会計ニュース・コレクター"
+  },
+  {
+   "id": "20261123-auditsupport",
+   "cat": "会計・監査",
+   "imp": 1,
+   "title": "中小監査法人がライバルと手を組む　監査支援機構で業界全体の品質向上へ",
+   "summary": "",
+   "url": "https://kaikeinews.hatenablog.com/entry/2026/11/19/195402",
+   "source": "会計ニュース・コレクター"
+  },
+  {
+   "id": "20261123-towerrecords",
+   "cat": "企業",
+   "imp": 2,
+   "title": "タワーレコード、通販サイトに不正アクセス　約1,100万件の個人情報が流出",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261122de79936",
    "source": "NHK"
   },
   {
-   "id": "20261122-seki",
+   "id": "20261123-komeitax",
    "cat": "政治",
    "imp": 2,
-   "title": "野党が関文科相の問責決議案を検討、自民は消費税減税法案の成立を優先",
+   "title": "公明党、食料品の消費税減税法案に6項目の修正を要求　応じなければ「賛成できない」",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79553",
-   "source": "NHK"
+   "url": "https://news.cube-soft.jp/article/4117112",
+   "source": "TBS NEWS DIG"
   },
   {
-   "id": "20261122-sumo",
-   "cat": "スポーツ",
-   "imp": 2,
-   "title": "九州場所、きょう千秋楽　大の里と若元春が2敗で並び、熱海富士が1差",
+   "id": "20261123-polandmissile",
+   "cat": "国際",
+   "imp": 3,
+   "title": "ロシアのミサイル3発がポーランド領内に落下　NATOはきょう理事会で協議",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79769",
-   "source": "NHK"
+   "url": "https://www.usnews.com/news/world/articles/2026-11-22/three-russian-missiles-flew-into-poland-friday-prosecutors-say",
+   "source": "U.S. News"
   },
   {
-   "id": "20261122-rugby",
-   "cat": "スポーツ",
-   "imp": 2,
-   "title": "ラグビー日本代表、スコットランドに5-67で大敗　欧州遠征は1勝5敗",
-   "summary": "",
-   "url": "https://www.daily.co.jp/general/2026/11/22/0021060927.shtml",
-   "source": "デイリースポーツ"
-  },
-  {
-   "id": "20261122-shimada",
-   "cat": "スポーツ",
+   "id": "20261123-ukeu",
+   "cat": "国際",
    "imp": 1,
-   "title": "フィギュアGP第5戦、島田麻央が2連勝でファイナル進出決定",
+   "title": "英国とEUが首脳会議で関係修復へ合意　食品貿易の簡素化と若者の相互受け入れ",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261121de79775",
+   "url": "https://news.ksb.co.jp/ann/article/17070014",
+   "source": "テレ朝news（KSB）"
+  },
+  {
+   "id": "20261123-fukushimasnow",
+   "cat": "社会",
+   "imp": 2,
+   "title": "会津の大雪、北塩原村の孤立は解消も停電続く　連休の温泉宿に打撃",
+   "summary": "",
+   "url": "https://www.minpo.jp/articles/-/281350",
+   "source": "福島民報"
+  },
+  {
+   "id": "20261123-onosato",
+   "cat": "スポーツ",
+   "imp": 2,
+   "title": "大の里が決定戦で若元春を下し7回目の優勝　横綱として初の連覇",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261122de79989",
    "source": "NHK"
   }
  ],
