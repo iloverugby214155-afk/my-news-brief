@@ -1,10 +1,10 @@
 {
- "date": "2026-11-23",
- "label": "2026年11月23日（月）",
+ "date": "2026-11-24",
+ "label": "2026年11月24日（火）",
  "headline": [
-  "東京市場はきょう勤労感謝の日で休場。20日の米株急落を受け、シカゴの日経平均先物は大取終値比1,865円安で、24日の連休明けは下値を探る展開が警戒される",
-  "アンソロピック株は金曜の安値が公開価格83ドルのわずか5セント上。今週は米PCE（25日）と感謝祭休場が控え、12月FOMCの利上げはほぼ織り込み済み",
-  "会計・監査ではEY新日本が監査人事評価にAIスキル4項目を追加。国際ではロシアのミサイル3発がポーランド領内に落下し、NATOがきょう理事会を開く"
+  "エヌビディアがフアン氏のCEO復帰を決定。NY株は急反発し、ナスダックは+6.5%、S&P500は+4.7%",
+  "日経平均は20日に3,007円安で弱気相場入り。祝日明けの今日は、CME先物（5万8,180円）が反発を示唆",
+  "ドル円は159円前後で、160円を前に介入警戒が続く。今週は米PCE（25日）と東京都区部CPI（27日）に注目"
  ],
  "markets": [
   {
@@ -15,193 +15,184 @@
    "value": "56,436.65"
   },
   {
-   "chg": "-265.44 (-3.70%)",
-   "dir": -1,
+   "chg": "+4.71%",
+   "dir": 1,
    "name": "S&P500",
-   "note": "11/20終値",
-   "value": "6,910.39"
+   "note": "11/23終値",
+   "value": "7,236.57"
   },
   {
-   "chg": "-1,049.81 (-6.41%)",
-   "dir": -1,
+   "chg": "取得できず",
+   "dir": 0,
    "name": "FANG+",
-   "note": "11/20終値",
-   "value": "15,331.12"
+   "note": "",
+   "value": "—"
   },
   {
-   "chg": "-0.25円",
-   "dir": -1,
+   "chg": "+0.58円",
+   "dir": 1,
    "name": "ドル円",
-   "note": "11/20 NY",
-   "value": "158.43"
+   "note": "11/23 NY",
+   "value": "159.0"
   }
  ],
  "picks": [
-  "20261123-usweek",
-  "20261123-anthropic",
-  "20261123-tokyo24"
+  "20261124-usstocks",
+  "20261124-anthropic",
+  "20261124-nikkei"
  ],
  "items": [
   {
-   "id": "20261123-usweek",
+   "id": "20261124-usstocks",
    "cat": "経済・市場",
    "imp": 3,
-   "title": "米株は週間でS&P500が約8.6%安、ナスダックは約10%安　VIXは35台に上昇",
+   "title": "NY株が急反発、ナスダックは6.5%高。フアン氏の復帰でAI株に買い戻し",
    "summary": "",
-   "url": "https://www.zaikei.co.jp/article/20261121/878679.html",
+   "url": "https://jp.bloomingbit.io/feed/news/125074",
+   "source": "bloomingbit"
+  },
+  {
+   "id": "20261124-nikkei",
+   "cat": "経済・市場",
+   "imp": 3,
+   "title": "日経平均は20日に3,007円安で「弱気相場」入り。祝日明けは反発が焦点",
+   "summary": "",
+   "url": "https://zaikei.co.jp/article/20261124/878810.html",
    "source": "財経新聞"
   },
   {
-   "id": "20261123-tokyo24",
-   "cat": "経済・市場",
-   "imp": 3,
-   "title": "東京市場はきょう休場、シカゴ日経先物は1,865円安　24日の連休明けに下押し圧力",
-   "summary": "",
-   "url": "https://s.minkabu.jp/news/4670279",
-   "source": "株探（みんかぶ）"
-  },
-  {
-   "id": "20261123-usdjpy",
-   "cat": "為替・金利",
-   "imp": 2,
-   "title": "ドル円は158円台半ばで週越し　160円手前の介入警戒と米利上げ観測の綱引き",
-   "summary": "",
-   "url": "https://www.sanin-chuo.co.jp/articles/-/1120212",
-   "source": "共同通信（山陰中央新報）"
-  },
-  {
-   "id": "20261123-usweekahead",
-   "cat": "為替・金利",
-   "imp": 2,
-   "title": "今週の米国は25日にPCE・GDP・ベージュブックが集中、26日は感謝祭で休場",
-   "summary": "",
-   "url": "https://www.gaitame.com/media/entry/2026/11/22/070000",
-   "source": "外為どっとコム"
-  },
-  {
-   "id": "20261123-anthropic",
-   "cat": "AI・テック",
-   "imp": 3,
-   "title": "アンソロピック株、金曜の安値は公開価格の5セント上　アナリスト目標の平均は134ドル",
-   "summary": "",
-   "url": "https://financefeeds.com/anthropic-ant-stock-88-91-sunday-week-ahead-second-week-after-ipo-bull-97-bear-83/",
-   "source": "FinanceFeeds"
-  },
-  {
-   "id": "20261123-nvidia",
+   "id": "20261124-nvidia-huang",
    "cat": "企業",
    "imp": 3,
-   "title": "エヌビディア、取締役会はフアン氏の復帰を否定　加州司法長官も召喚状、12月1日に議会聴取",
+   "title": "エヌビディアがフアン氏のCEO復帰を決定、株価は一時3割超上昇",
    "summary": "",
-   "url": "https://forbes.com/sites/alisondurkee/2026/11/20/jensen-huang-ousted-timeline-of-the-nvidia-scandal-as-california-launches-investigation",
-   "source": "Forbes"
+   "url": "https://www.zaikei.co.jp/article/20261124/878783.html",
+   "source": "財経新聞"
   },
   {
-   "id": "20261123-oracle",
-   "cat": "AI・テック",
-   "imp": 2,
-   "title": "オラクル、OpenAI向けインフラの資金を全額確保と発表　株価は8%超安",
-   "summary": "",
-   "url": "https://www.oracle.com/news/",
-   "source": "Oracle News"
-  },
-  {
-   "id": "20261123-chatgptdown",
-   "cat": "AI・テック",
-   "imp": 1,
-   "title": "ChatGPTで約3時間半の障害、ピーク時の失敗率75%　データベース保守中のトラブル",
-   "summary": "",
-   "url": "https://status.openai.com/incidents/01JMYB602A6H2E04Y1497J434X/write-up",
-   "source": "OpenAI Status"
-  },
-  {
-   "id": "20261123-genie4",
-   "cat": "AI・テック",
-   "imp": 1,
-   "title": "Google、対話型の世界モデル「Genie 4」を開発者向けAPIで提供開始",
-   "summary": "",
-   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api",
-   "source": "Google Blog"
-  },
-  {
-   "id": "20261123-eyai",
+   "id": "20261124-nvidia-sec",
    "cat": "会計・監査",
    "imp": 2,
-   "title": "EY新日本、監査人に求めるAIスキル4項目を定め今年度から人事評価に反映",
+   "title": "エヌビディアにSECの調査。開示が投資家の誤解を招いたかが焦点か",
    "summary": "",
-   "url": "https://www.ey.com/ja_jp/newsroom/2026/11/ey-japan-news-release-2026-11-19",
-   "source": "EY Japan"
+   "url": "https://www.koreajoongangdaily.com/business/huang-pitches-nvidia-comeback-wsj-reports-sec-probing-the-chipmaker/12978169",
+   "source": "Korea JoongAng Daily"
   },
   {
-   "id": "20261123-kanade",
-   "cat": "会計・監査",
-   "imp": 1,
-   "title": "かなで監査法人が京都の監査法人京立志を吸収合併へ　関西の基盤を強化",
-   "summary": "",
-   "url": "https://kaikeinews.hatenablog.com/entry/2026/11/20/113155",
-   "source": "会計ニュース・コレクター"
-  },
-  {
-   "id": "20261123-auditsupport",
-   "cat": "会計・監査",
-   "imp": 1,
-   "title": "中小監査法人がライバルと手を組む　監査支援機構で業界全体の品質向上へ",
-   "summary": "",
-   "url": "https://kaikeinews.hatenablog.com/entry/2026/11/19/195402",
-   "source": "会計ニュース・コレクター"
-  },
-  {
-   "id": "20261123-towerrecords",
-   "cat": "企業",
+   "id": "20261124-anthropic",
+   "cat": "AI・テック",
    "imp": 2,
-   "title": "タワーレコード、通販サイトに不正アクセス　約1,100万件の個人情報が流出",
+   "title": "アンソロピック株は反発相場に乗れず、公開価格に近い水準で推移",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261122de79936",
+   "url": "https://www.nasdaq.com/articles/why-anthropic-stock-and-down-today",
+   "source": "Nasdaq"
+  },
+  {
+   "id": "20261124-riemann",
+   "cat": "AI・テック",
+   "imp": 2,
+   "title": "「AIでリーマン予想を証明」とアンソロピック関係の数学者が主張",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261122de79817",
    "source": "NHK"
   },
   {
-   "id": "20261123-komeitax",
+   "id": "20261124-crwd-zs",
+   "cat": "企業",
+   "imp": 2,
+   "title": "クラウドストライクがゼットスケーラーを約439億ドルで買収へ",
+   "summary": "",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000035/crwd-20261123xex991.htm",
+   "source": "SEC"
+  },
+  {
+   "id": "20261124-usdjpy",
+   "cat": "為替・金利",
+   "imp": 2,
+   "title": "ドル円は159円台、160円を前に介入警戒。今週は米PCEと都区部CPIに注目",
+   "summary": "",
+   "url": "https://www.zaikei.co.jp/article/20261124/878817.html",
+   "source": "財経新聞"
+  },
+  {
+   "id": "20261124-sanyo",
+   "cat": "会計・監査",
+   "imp": 2,
+   "title": "三洋貿易、米子会社の資金流用で特別損失6億円。過年度訂正はせず",
+   "summary": "",
+   "url": "https://research.nalalys.com/cases/2026-09-sanyoboeki",
+   "source": "Nalalys"
+  },
+  {
+   "id": "20261124-asbj",
+   "cat": "会計・監査",
+   "imp": 1,
+   "title": "ASBJ、金融商品の分類・測定や排出量取引の会計を審議中",
+   "summary": "",
+   "url": "https://tkc.jp/consolidate/tkc_express/2026/11/202611_14397",
+   "source": "TKC"
+  },
+  {
+   "id": "20261124-shohizei",
    "cat": "政治",
    "imp": 2,
-   "title": "公明党、食料品の消費税減税法案に6項目の修正を要求　応じなければ「賛成できない」",
+   "title": "食料品の消費税1%法案は参院で審議中。会期末の12月12日へ攻防",
    "summary": "",
-   "url": "https://news.cube-soft.jp/article/4117112",
-   "source": "TBS NEWS DIG"
+   "url": "https://civic-ai.xyz/articles/rinji-kokkai-2026aki",
+   "source": "civic-ai"
   },
   {
-   "id": "20261123-polandmissile",
+   "id": "20261124-cop31",
    "cat": "国際",
-   "imp": 3,
-   "title": "ロシアのミサイル3発がポーランド領内に落下　NATOはきょう理事会で協議",
+   "imp": 2,
+   "title": "COP31、成果文書の採択を断念。化石燃料からの脱却に触れず反発",
    "summary": "",
-   "url": "https://www.usnews.com/news/world/articles/2026-11-22/three-russian-missiles-flew-into-poland-friday-prosecutors-say",
-   "source": "U.S. News"
+   "url": "https://news.web.nhk/newsweb/na/nd-20261122de79933",
+   "source": "NHK"
   },
   {
-   "id": "20261123-ukeu",
+   "id": "20261124-iran",
+   "cat": "国際",
+   "imp": 2,
+   "title": "イランがバーレーンの米軍施設を狙った攻撃を発表、緊張高まる",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261122de79868",
+   "source": "NHK"
+  },
+  {
+   "id": "20261124-ukraine",
    "cat": "国際",
    "imp": 1,
-   "title": "英国とEUが首脳会議で関係修復へ合意　食品貿易の簡素化と若者の相互受け入れ",
+   "title": "ロシアがキーウ近郊を攻撃し4人死亡。デンマークは暗殺計画を阻止と発表",
    "summary": "",
-   "url": "https://news.ksb.co.jp/ann/article/17070014",
-   "source": "テレ朝news（KSB）"
+   "url": "https://news.web.nhk/newsweb/na/nd-20261123de80114",
+   "source": "NHK"
   },
   {
-   "id": "20261123-fukushimasnow",
-   "cat": "社会",
-   "imp": 2,
-   "title": "会津の大雪、北塩原村の孤立は解消も停電続く　連休の温泉宿に打撃",
-   "summary": "",
-   "url": "https://www.minpo.jp/articles/-/281350",
-   "source": "福島民報"
-  },
-  {
-   "id": "20261123-onosato",
+   "id": "20261124-sumo",
    "cat": "スポーツ",
    "imp": 2,
-   "title": "大の里が決定戦で若元春を下し7回目の優勝　横綱として初の連覇",
+   "title": "大の里が決定戦で若元春を下し7回目の優勝、横綱として初の連覇",
    "summary": "",
    "url": "https://news.web.nhk/newsweb/na/nd-20261122de79989",
+   "source": "NHK"
+  },
+  {
+   "id": "20261124-snow",
+   "cat": "社会",
+   "imp": 2,
+   "title": "11月の大雪で福島・長野・岐阜に停電や交通の乱れ",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261123de80164",
+   "source": "NHK"
+  },
+  {
+   "id": "20261124-shuri",
+   "cat": "社会",
+   "imp": 1,
+   "title": "火災で焼失した首里城正殿、復元を終えて公開。多くの人が訪れる",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261122de80078",
    "source": "NHK"
   }
  ],
