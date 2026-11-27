@@ -1,216 +1,225 @@
 {
- "date": "2026-11-27",
- "label": "2026年11月27日（金）",
+ "date": "2026-11-28",
+ "label": "2026年11月28日（土）",
  "headline": [
-  "日経平均は487円高の5万7,499円と反発。アドバンテストとソフトバンクGの2銘柄で約393円を押し上げたが、日銀・田村委員の利上げ発言で伸び悩んだ",
-  "米国市場は感謝祭で休場。25日のS&P500は0.25%安、FANG+は0.76%安で終えている。ドル円は159円台前半で小動き",
-  "関文科相の問責決議案がきょう参院で採決、可否はギリギリの情勢。中東の製油所攻撃などでブレント原油は96ドル台に上昇"
+  "日経平均は1,211円高の5万8,711円と大幅続伸。アドバンテストと東エレクの2銘柄で約555円を押し上げ、AI・半導体株への買い戻しが鮮明に",
+  "休場明けの米国株も反発し、S&P500は1.6%高、ナスダックは2.3%高。アンソロピック株は11%高の91.88ドルで公開価格83ドルを回復",
+  "関文科相の問責決議案は120対124の4票差で否決。週明けから参院で消費税減税法案の審議が再開へ"
  ],
  "markets": [
   {
-   "chg": "+487.54 (+0.86%)",
+   "chg": "+1,211.95 (+2.11%)",
    "dir": 1,
    "name": "日経平均",
-   "note": "11/26終値",
-   "value": "57,499.16"
+   "note": "11/27終値",
+   "value": "58,711.11"
   },
   {
-   "chg": "-18.31 (-0.25%)",
-   "dir": -1,
+   "chg": "+114.71 (+1.60%)",
+   "dir": 1,
    "name": "S&P500",
-   "note": "11/25終値",
-   "value": "7,182.78"
+   "note": "11/27終値",
+   "value": "7,297.49"
   },
   {
-   "chg": "-122.71 (-0.76%)",
-   "dir": -1,
-   "name": "FANG+",
-   "note": "11/25終値",
-   "value": "16,057.95"
-  },
-  {
-   "chg": "-0.11円",
+   "chg": "取得できず",
    "dir": 0,
+   "name": "FANG+",
+   "note": "",
+   "value": "—"
+  },
+  {
+   "chg": "+0.33円",
+   "dir": 1,
    "name": "ドル円",
-   "note": "11/27 6時",
-   "value": "159.27"
+   "note": "11/27 NY終値",
+   "value": "159.60"
   }
  ],
  "picks": [
-  "20261127-nvidia-cbs",
-  "20261127-anthropic",
-  "20261127-weimob"
+  "20261128-anthropic",
+  "20261128-nvidia-alice",
+  "20261128-nvidia-sea"
  ],
  "items": [
   {
-   "id": "20261127-nikkei",
+   "id": "20261128-nikkei",
    "cat": "経済・市場",
    "imp": 3,
-   "title": "日経平均は487円高の5万7,499円と反発、半導体株に買い戻し",
+   "title": "日経平均は1,211円高の5万8,711円と大幅続伸、半導体の主力株が相場をけん引",
    "summary": "",
-   "url": "https://www.zaikei.co.jp/article/20261126/879298.html",
+   "url": "https://www.zaikei.co.jp/article/20261127/879481.html",
    "source": "財経新聞"
   },
   {
-   "id": "20261127-usmarket",
+   "id": "20261128-usmarket",
    "cat": "経済・市場",
-   "imp": 2,
-   "title": "米国市場は感謝祭で休場、25日はナスダックが一時4.6%安から0.6%安まで戻す",
-   "summary": "",
-   "url": "https://zaikei.co.jp/article/20261126/879213.html",
-   "source": "財経新聞"
-  },
-  {
-   "id": "20261127-boj-tamura",
-   "cat": "為替・金利",
    "imp": 3,
-   "title": "日銀の田村審議委員「数カ月に1度0.25%」の利上げペースを想定、物価上振れなら加速も",
+   "title": "休場明けの米国株は反発、S&P500は1.6%高　ナスダックは2.3%高",
    "summary": "",
-   "url": "https://news.ksb.co.jp/ann/article/17082792",
-   "source": "KSB（ANN）"
-  },
-  {
-   "id": "20261127-usdjpy",
-   "cat": "為替・金利",
-   "imp": 2,
-   "title": "ドル円は159円27銭と小動き、国内の10年債利回りは2.615%",
-   "summary": "",
-   "url": "https://www.oanda.jp/lab-education/market_news/kn_2026112702000008/",
-   "source": "OANDA（共同通信）"
-  },
-  {
-   "id": "20261127-anthropic",
-   "cat": "AI・テック",
-   "imp": 3,
-   "title": "アンソロピック株は一時73ドル台まで急落、終値は82.79ドルで公開価格に迫る",
-   "summary": "",
-   "url": "https://www.bloomberg.com/jp/news/articles/2026-11-26/TP2UEHRKV2UO00",
-   "source": "ブルームバーグ"
-  },
-  {
-   "id": "20261127-nvidia-cbs",
-   "cat": "企業",
-   "imp": 3,
-   "title": "エヌビディアの優先販売先に「実態は中国企業」の米国企業、CBSが報道",
-   "summary": "",
-   "url": "https://gigazine.net/news/20261126-nvidia-china-company/",
-   "source": "GIGAZINE"
-  },
-  {
-   "id": "20261127-weimob",
-   "cat": "企業",
-   "imp": 1,
-   "title": "中国の微盟がエヌビディアのGPUを約5000基調達、規制下でも需要は根強く",
-   "summary": "",
-   "url": "https://www.zaikei.co.jp/article/20261126/879327.html",
-   "source": "財経新聞"
-  },
-  {
-   "id": "20261127-1password",
-   "cat": "AI・テック",
-   "imp": 2,
-   "title": "1Passwordに不正侵入、社員のGitHubアカウント経由で顧客の管理データが流出",
-   "summary": "",
-   "url": "https://gigazine.net/news/20261126-1password-security-incident/",
-   "source": "GIGAZINE"
-  },
-  {
-   "id": "20261127-openai-limits",
-   "cat": "AI・テック",
-   "imp": 1,
-   "title": "OpenAI、ChatGPTとCodexの利用上限を12月から共通化",
-   "summary": "",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1042187/openai-is-combining-chatgpt-and-codex-usage-limits",
-   "source": "The Verge"
-  },
-  {
-   "id": "20261127-ssbj",
-   "cat": "会計・監査",
-   "imp": 2,
-   "title": "SSBJが「今後の計画」を改訂、自然関連の開示はISSBの結論に応じて対応を分ける",
-   "summary": "",
-   "url": "https://sustainablejapan.jp/2026/11/23/ssbj-next-actions/132725",
-   "source": "Sustainable Japan"
-  },
-  {
-   "id": "20261127-tax-reform",
-   "cat": "会計・監査",
-   "imp": 2,
-   "title": "高市首相、税制改正は「投資促進や成長につながる内容に」、賃上げ税制などで説明受ける",
-   "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261126de81902",
-   "source": "NHK"
-  },
-  {
-   "id": "20261127-oil",
-   "cat": "国際",
-   "imp": 2,
-   "title": "サウジの製油所攻撃やオマーン沖のタンカー爆発で、ブレント原油が96ドル台に上昇",
-   "summary": "",
-   "url": "https://fx.minkabu.jp/news/385500",
+   "url": "https://fx.minkabu.jp/news/385649",
    "source": "みんかぶFX"
   },
   {
-   "id": "20261127-trump-russia",
-   "cat": "国際",
+   "id": "20261128-tokyo-cpi",
+   "cat": "為替・金利",
    "imp": 2,
-   "title": "トランプ大統領、プーチン氏に「欧州全域での軍事侵攻の停止」を求めたと明かす",
+   "title": "東京都区部のコアCPIは2.9%上昇、電気・ガス補助の終了で伸びが拡大",
    "summary": "",
-   "url": "https://ryukyushimpo.jp/kyodo/entry-5617317.html",
-   "source": "琉球新報（共同通信）"
+   "url": "https://www.nikkei.com/article/DGXZQOUA174MJ0X11C26A1000000/",
+   "source": "日本経済新聞"
   },
   {
-   "id": "20261127-eu-fund",
-   "cat": "国際",
-   "imp": 1,
-   "title": "欧州委員会、AI・量子向けに500億ユーロの投資ファンドを提案",
+   "id": "20261128-usdjpy",
+   "cat": "為替・金利",
+   "imp": 2,
+   "title": "ドル円は159円60銭で引け、米長期金利の上昇でドル買い",
    "summary": "",
-   "url": "https://www.dw.com/en/eu-plans-50-billion-sovereign-tech-equity-fund-to-boost-quantum-technology/a-80047569",
-   "source": "DW"
+   "url": "https://www.zaikei.co.jp/article/20261128/879546.html",
+   "source": "財経新聞"
   },
   {
-   "id": "20261127-censure",
-   "cat": "政治",
-   "imp": 2,
-   "title": "関文科相の問責決議案、きょう参院で採決　可否は「ギリギリの情勢」",
+   "id": "20261128-anthropic",
+   "cat": "AI・テック",
+   "imp": 3,
+   "title": "アンソロピック株は11%高の91.88ドル、公開価格83ドルを3日ぶりに回復",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261127de82148",
+   "url": "https://stockanalysis.com/news/anthropic-jumps-11-percent-back-above-ipo-price/",
+   "source": "StockAnalysis"
+  },
+  {
+   "id": "20261128-sakana-defense",
+   "cat": "AI・テック",
+   "imp": 2,
+   "title": "Sakana AIが防衛・インテリジェンス向けの新会社を設立、人員と機密情報は国内に限定",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261127de82640",
    "source": "NHK"
   },
   {
-   "id": "20261127-marshall",
-   "cat": "政治",
-   "imp": 1,
-   "title": "日マーシャル首脳会談、安全保障分野の協力拡大を確認",
+   "id": "20261128-nvidia-sea",
+   "cat": "企業",
+   "imp": 3,
+   "title": "エヌビディア、東南アジア4カ国へのAIサーバー出荷停止をパートナーに指示とFT報道",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261126de82126",
+   "url": "https://www.gizmodo.jp/article/2611-nvidia-southeast-asia-ai-chip-ban/",
+   "source": "ギズモード・ジャパン"
+  },
+  {
+   "id": "20261128-nvidia-alice",
+   "cat": "企業",
+   "imp": 2,
+   "title": "エヌビディアの最新AIラック、アリス・フアン氏に関係する上海のデータセンターに設置とブルームバーグ報道",
+   "summary": "",
+   "url": "https://www.nikkei.com/article/DGXZQOGN27BWO0X21C26A1000000/",
+   "source": "日本経済新聞"
+  },
+  {
+   "id": "20261128-terra-drone",
+   "cat": "企業",
+   "imp": 2,
+   "title": "テラドローンがストップ高、防衛装備庁向け迎撃ドローンの納品を完了",
+   "summary": "",
+   "url": "https://www.zaikei.co.jp/article/20261127/879466.html",
+   "source": "財経新聞"
+  },
+  {
+   "id": "20261128-pepabo",
+   "cat": "企業",
+   "imp": 1,
+   "title": "GMOペパボに不正アクセス、51万件超の利用者情報が流出　一部パスワードも",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261127de82789",
    "source": "NHK"
   },
   {
-   "id": "20261127-ueda",
+   "id": "20261128-tokiair",
+   "cat": "会計・監査",
+   "imp": 3,
+   "title": "トキエアの繰延資産31億円が新潟県議会で議論に、「償却すれば債務超過が膨らむ」",
+   "summary": "",
+   "url": "https://www.uxtv.co.jp/ux-news/20261126-ux-019/",
+   "source": "UX新潟テレビ21"
+  },
+  {
+   "id": "20261128-ifiar-pe",
+   "cat": "会計・監査",
+   "imp": 2,
+   "title": "IFIARが監査法人へのPE投資などのリスクを整理、金融庁が概要の仮訳を公表",
+   "summary": "",
+   "url": "https://www.fsa.go.jp/ifiar/20261127.html",
+   "source": "金融庁"
+  },
+  {
+   "id": "20261128-tokai-tv",
+   "cat": "会計・監査",
+   "imp": 2,
+   "title": "東海テレビが約2億4,000万円の所得隠しを指摘される、CM制作の外注費を水増し",
+   "summary": "",
+   "url": "https://www.chunichi.co.jp/article/1344442",
+   "source": "中日新聞"
+  },
+  {
+   "id": "20261128-auditor-change",
+   "cat": "会計・監査",
+   "imp": 1,
+   "title": "デジタルプラスが会計監査人をPwCからRSM清和監査法人に交代へ",
+   "summary": "",
+   "url": "https://kaikeinews.hatenablog.com/",
+   "source": "会計ニュース・コレクター"
+  },
+  {
+   "id": "20261128-censure",
+   "cat": "政治",
+   "imp": 2,
+   "title": "関文科相の問責決議案、賛成120・反対124の4票差で否決",
+   "summary": "",
+   "url": "https://www.nikkei.com/article/DGXZQOUA270RH0X21C26A1000000/",
+   "source": "日本経済新聞"
+  },
+  {
+   "id": "20261128-kuwait",
+   "cat": "国際",
+   "imp": 2,
+   "title": "クウェートでドローン攻撃、イタリア人技術者2人が死亡　イランは関与を否定",
+   "summary": "",
+   "url": "https://www.afpbb.com/articles/-/3664400",
+   "source": "AFPBB News"
+  },
+  {
+   "id": "20261128-ecb",
+   "cat": "国際",
+   "imp": 2,
+   "title": "ECBの次期総裁にスペインのデコス氏、EU首脳が合意",
+   "summary": "",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261127de82180",
+   "source": "NHK"
+  },
+  {
+   "id": "20261128-europe-soccer",
    "cat": "スポーツ",
-   "imp": 2,
-   "title": "上田綺世が同点弾、リールがバイエルンに逆転勝ち　伊藤洋輝との日本人対決も",
+   "imp": 1,
+   "title": "欧州カンファレンスリーグで新川志音が初ゴール、鈴木唯人は今季初アシスト",
    "summary": "",
-   "url": "https://www.soccer-king.jp/news/world/cl/20261126/2231535.html",
+   "url": "https://www.soccer-king.jp/news/world/el/20261127/2231943.html",
    "source": "サッカーキング"
   },
   {
-   "id": "20261127-futoko",
+   "id": "20261128-bullying",
    "cat": "社会",
    "imp": 2,
-   "title": "不登校の小中学生などが35万9424人、13年連続で過去最多",
+   "title": "学校のいじめが79万件超で5年連続の過去最多、「性的いじめ」は初調査で8,000件超",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261126de81766",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261127de82139",
    "source": "NHK"
   },
   {
-   "id": "20261127-hokkaido-reporter",
+   "id": "20261128-hokkaido-shinkansen",
    "cat": "社会",
    "imp": 1,
-   "title": "ロシアで拘束の北海道新聞記者、妻が手記で早期解放を訴え",
+   "title": "北海道新幹線の札幌延伸、事業費が約1兆900億円増える見通し",
    "summary": "",
-   "url": "https://news.web.nhk/newsweb/na/nd-20261126de81607",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261127de82748",
    "source": "NHK"
   }
  ],
